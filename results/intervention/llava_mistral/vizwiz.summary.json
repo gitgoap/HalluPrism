@@ -1,0 +1,5 @@
+{
+  "model": "llava_mistral",
+  "decomp_source": "results/decomposition/llava_mistral/vizwiz.jsonl",
+  "n_samples": 4319
+}

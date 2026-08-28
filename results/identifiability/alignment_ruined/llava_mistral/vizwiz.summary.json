@@ -1,0 +1,6 @@
+{
+  "dataset": "vizwiz",
+  "model": "llava_mistral",
+  "intervention": "alignment_ruined",
+  "n_samples": 4319
+}

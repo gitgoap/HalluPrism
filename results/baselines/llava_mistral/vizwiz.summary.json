@@ -1,0 +1,18 @@
+{
+  "dataset": "vizwiz",
+  "model": "llava_mistral",
+  "n_samples": 4319,
+  "accuracy": 0.473257698541329,
+  "per_family_accuracy": {
+    "answerability": {
+      "accuracy": 0.7862815884476534,
+      "correct": 1089,
+      "count": 1385
+    },
+    "none": {
+      "accuracy": 0.32549420586230404,
+      "correct": 955,
+      "count": 2934
+    }
+  }
+}

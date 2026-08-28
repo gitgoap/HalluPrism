@@ -1,0 +1,5 @@
+{
+  "model": "qwen_vl",
+  "decomp_source": "results/decomposition/qwen_vl/vsr.jsonl",
+  "n_samples": 340
+}

@@ -1,0 +1,6 @@
+{
+  "dataset": "vizwiz",
+  "model": "qwen_vl",
+  "n_samples": 1080,
+  "passes_per_sample": 8
+}

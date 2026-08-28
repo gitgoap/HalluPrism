@@ -1,0 +1,45 @@
+2026-04-22 15:02:05 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 15:02:05 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 15:02:05 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 15:02:08 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 15:02:08 | INFO     | __main__ | === Baseline Run: dataset=vsr, model=gemma_vl ===
+2026-04-22 15:02:08 | INFO     | __main__ | Loading dataset...
+2026-04-22 15:02:08 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-22 15:02:08 | INFO     | __main__ | Loaded 340 samples from vsr
+2026-04-22 15:02:08 | INFO     | __main__ | Loading model: gemma_vl (path=/home/models/gemma-4-E4B-it, device=cuda:1)...
+2026-04-22 15:02:08 | INFO     | src.models.gemma_vl | Loading Gemma 4 model: /home/models/gemma-4-E4B-it
+2026-04-22 15:02:08 | INFO     | src.models.gemma_vl | Pinning model to cuda:1
+2026-04-22 15:02:14 | INFO     | src.models.gemma_vl | Gemma 4 loaded. model=/home/models/gemma-4-E4B-it, device=cuda:1, dtype=bfloat16
+2026-04-22 15:02:14 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 15:02:14 | INFO     | experiment.baseline_vsr_gemma_vl | ExperimentLogger initialized: results/baselines/gemma_vl/vsr.jsonl (experiment='baseline_vsr_gemma_vl')
+2026-04-22 15:02:14 | INFO     | __main__ | Processing sample 0/340...
+2026-04-22 15:03:34 | INFO     | __main__ | Processing sample 100/340...
+2026-04-22 15:04:54 | INFO     | __main__ | Processing sample 200/340...
+2026-04-22 15:06:12 | INFO     | __main__ | Processing sample 300/340...
+2026-04-22 15:06:44 | INFO     | experiment.baseline_vsr_gemma_vl | Experiment summary: {
+  "dataset": "vsr",
+  "model": "gemma_vl",
+  "n_samples": 340,
+  "accuracy": 0.7176470588235294,
+  "per_family_accuracy": {
+    "spatial": {
+      "accuracy": 0.7176470588235294,
+      "correct": 244,
+      "count": 340
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.7176470588235294,
+    "precision": 0.7933884297520661,
+    "recall": 0.5748502994011976,
+    "f1": 0.6666666666666666,
+    "tp": 96,
+    "fp": 25,
+    "fn": 71,
+    "tn": 148,
+    "total": 340
+  }
+}
+2026-04-22 15:06:44 | INFO     | experiment.baseline_vsr_gemma_vl | Summary saved to results/baselines/gemma_vl/vsr.summary.json
+2026-04-22 15:06:44 | INFO     | __main__ | Overall accuracy: 0.7176
+2026-04-22 15:06:44 | INFO     | __main__ | Results saved to: results/baselines/gemma_vl/vsr.jsonl

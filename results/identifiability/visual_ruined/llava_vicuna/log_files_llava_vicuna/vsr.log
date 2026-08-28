@@ -1,0 +1,27 @@
+2026-04-26 12:49:12 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-26 12:49:12 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-26 12:49:13 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-26 12:49:15 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-26 12:49:15 | INFO     | __main__ | === Identifiability Run: dataset=vsr, model=llava_vicuna, intervention=visual_ruined ===
+2026-04-26 12:49:15 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-26 12:49:15 | INFO     | __main__ | Loaded 340 samples.
+2026-04-26 12:49:15 | INFO     | src.models.llava_vicuna | Loading LLaVA-1.6-Vicuna model: /home/models/llava-v1.6-vicuna-7b-hf
+2026-04-26 12:49:15 | INFO     | src.models.llava_vicuna | Pinning model to cuda:0
+2026-04-26 12:49:19 | INFO     | src.models.llava_vicuna | LLaVA-1.6-Vicuna loaded. model=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:0, dtype=float16
+2026-04-26 12:49:19 | INFO     | __main__ | Model loaded.
+2026-04-26 12:49:19 | INFO     | experiment.identifiability_visual_ruined_vsr_llava_vicuna | ExperimentLogger initialized: results/identifiability/visual_ruined/llava_vicuna/vsr.jsonl (experiment='identifiability_visual_ruined_vsr_llava_vicuna')
+2026-04-26 12:49:19 | INFO     | __main__ | Processing sample 0/340...
+2026-04-26 12:52:15 | INFO     | __main__ | Processing sample 50/340...
+2026-04-26 12:55:09 | INFO     | __main__ | Processing sample 100/340...
+2026-04-26 12:58:07 | INFO     | __main__ | Processing sample 150/340...
+2026-04-26 13:01:01 | INFO     | __main__ | Processing sample 200/340...
+2026-04-26 13:03:52 | INFO     | __main__ | Processing sample 250/340...
+2026-04-26 13:06:49 | INFO     | __main__ | Processing sample 300/340...
+2026-04-26 13:09:09 | INFO     | experiment.identifiability_visual_ruined_vsr_llava_vicuna | Experiment summary: {
+  "dataset": "vsr",
+  "model": "llava_vicuna",
+  "intervention": "visual_ruined",
+  "n_samples": 340
+}
+2026-04-26 13:09:09 | INFO     | experiment.identifiability_visual_ruined_vsr_llava_vicuna | Summary saved to results/identifiability/visual_ruined/llava_vicuna/vsr.summary.json
+2026-04-26 13:09:09 | INFO     | __main__ | Done. Results saved to: results/identifiability/visual_ruined/llava_vicuna/vsr.jsonl

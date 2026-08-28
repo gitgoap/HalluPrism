@@ -1,0 +1,18 @@
+{
+  "dataset": "vizwiz",
+  "model": "qwen_vl",
+  "n_samples": 4319,
+  "accuracy": 0.5283630470016207,
+  "per_family_accuracy": {
+    "answerability": {
+      "accuracy": 0.8223826714801444,
+      "correct": 1139,
+      "count": 1385
+    },
+    "none": {
+      "accuracy": 0.3895705521472393,
+      "correct": 1143,
+      "count": 2934
+    }
+  }
+}

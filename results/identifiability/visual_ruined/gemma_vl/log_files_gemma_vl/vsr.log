@@ -1,0 +1,27 @@
+2026-04-27 16:56:01 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-27 16:56:01 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-27 16:56:01 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-27 16:56:05 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-27 16:56:05 | INFO     | __main__ | === Identifiability Run: dataset=vsr, model=gemma_vl, intervention=visual_ruined ===
+2026-04-27 16:56:05 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-27 16:56:05 | INFO     | __main__ | Loaded 340 samples.
+2026-04-27 16:56:05 | INFO     | src.models.gemma_vl | Loading Gemma 4 model: /home/models/gemma-4-E4B-it
+2026-04-27 16:56:05 | INFO     | src.models.gemma_vl | Pinning model to cuda:0
+2026-04-27 16:56:11 | INFO     | src.models.gemma_vl | Gemma 4 loaded. model=/home/models/gemma-4-E4B-it, device=cuda:0, dtype=bfloat16
+2026-04-27 16:56:11 | INFO     | __main__ | Model loaded.
+2026-04-27 16:56:11 | INFO     | experiment.identifiability_visual_ruined_vsr_gemma_vl | ExperimentLogger initialized: results/identifiability/visual_ruined/gemma_vl/vsr.jsonl (experiment='identifiability_visual_ruined_vsr_gemma_vl')
+2026-04-27 16:56:11 | INFO     | __main__ | Processing sample 0/340...
+2026-04-27 16:58:19 | INFO     | __main__ | Processing sample 50/340...
+2026-04-27 17:00:24 | INFO     | __main__ | Processing sample 100/340...
+2026-04-27 17:02:32 | INFO     | __main__ | Processing sample 150/340...
+2026-04-27 17:04:38 | INFO     | __main__ | Processing sample 200/340...
+2026-04-27 17:06:43 | INFO     | __main__ | Processing sample 250/340...
+2026-04-27 17:08:47 | INFO     | __main__ | Processing sample 300/340...
+2026-04-27 17:10:29 | INFO     | experiment.identifiability_visual_ruined_vsr_gemma_vl | Experiment summary: {
+  "dataset": "vsr",
+  "model": "gemma_vl",
+  "intervention": "visual_ruined",
+  "n_samples": 340
+}
+2026-04-27 17:10:29 | INFO     | experiment.identifiability_visual_ruined_vsr_gemma_vl | Summary saved to results/identifiability/visual_ruined/gemma_vl/vsr.summary.json
+2026-04-27 17:10:29 | INFO     | __main__ | Done. Results saved to: results/identifiability/visual_ruined/gemma_vl/vsr.jsonl

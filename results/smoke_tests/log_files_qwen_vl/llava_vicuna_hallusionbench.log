@@ -1,0 +1,22 @@
+2026-04-21 23:24:02 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-21 23:24:02 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-21 23:24:02 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-21 23:24:02 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-21 23:24:02 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=qwen_vl ===
+2026-04-21 23:24:02 | INFO     | __main__ | Loading dataset...
+2026-04-21 23:24:02 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-21 23:24:02 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-21 23:24:02 | INFO     | __main__ | Loading model: qwen_vl (path=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1)...
+2026-04-21 23:24:03 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-04-21 23:24:03 | INFO     | src.models.qwen_vl | Pinning model to cuda:1
+2026-04-21 23:26:36 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-21 23:26:36 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-21 23:26:36 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-21 23:26:37 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-21 23:26:37 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=qwen_vl ===
+2026-04-21 23:26:37 | INFO     | __main__ | Loading dataset...
+2026-04-21 23:26:37 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-21 23:26:37 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-21 23:26:37 | INFO     | __main__ | Loading model: qwen_vl (path=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1)...
+2026-04-21 23:26:37 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-04-21 23:26:37 | INFO     | src.models.qwen_vl | Pinning model to cuda:1

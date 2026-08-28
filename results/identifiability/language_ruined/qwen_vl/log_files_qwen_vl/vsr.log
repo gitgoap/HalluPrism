@@ -1,0 +1,27 @@
+2026-04-30 05:32:16 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-30 05:32:16 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-30 05:32:16 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-30 05:32:18 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-30 05:32:18 | INFO     | __main__ | === Identifiability Run: dataset=vsr, model=qwen_vl, intervention=language_ruined ===
+2026-04-30 05:32:18 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-30 05:32:18 | INFO     | __main__ | Loaded 340 samples.
+2026-04-30 05:32:19 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-04-30 05:32:19 | INFO     | src.models.qwen_vl | Pinning model to cuda:0
+2026-04-30 05:32:23 | INFO     | src.models.qwen_vl | Qwen3-VL loaded. model=/home/models/Qwen3-VL-8B-Instruct, device=cuda:0, dtype=bfloat16
+2026-04-30 05:32:23 | INFO     | __main__ | Model loaded.
+2026-04-30 05:32:23 | INFO     | experiment.identifiability_language_ruined_vsr_qwen_vl | ExperimentLogger initialized: results/identifiability/language_ruined/qwen_vl/vsr.jsonl (experiment='identifiability_language_ruined_vsr_qwen_vl')
+2026-04-30 05:32:23 | INFO     | __main__ | Processing sample 0/340...
+2026-04-30 05:34:10 | INFO     | __main__ | Processing sample 50/340...
+2026-04-30 05:35:56 | INFO     | __main__ | Processing sample 100/340...
+2026-04-30 05:37:46 | INFO     | __main__ | Processing sample 150/340...
+2026-04-30 05:39:31 | INFO     | __main__ | Processing sample 200/340...
+2026-04-30 05:41:17 | INFO     | __main__ | Processing sample 250/340...
+2026-04-30 05:43:03 | INFO     | __main__ | Processing sample 300/340...
+2026-04-30 05:44:28 | INFO     | experiment.identifiability_language_ruined_vsr_qwen_vl | Experiment summary: {
+  "dataset": "vsr",
+  "model": "qwen_vl",
+  "intervention": "language_ruined",
+  "n_samples": 340
+}
+2026-04-30 05:44:28 | INFO     | experiment.identifiability_language_ruined_vsr_qwen_vl | Summary saved to results/identifiability/language_ruined/qwen_vl/vsr.summary.json
+2026-04-30 05:44:28 | INFO     | __main__ | Done. Results saved to: results/identifiability/language_ruined/qwen_vl/vsr.jsonl

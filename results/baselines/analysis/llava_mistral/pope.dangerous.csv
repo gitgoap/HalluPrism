@@ -1,0 +1,985 @@
+sample_id,dataset,question,gold_answer,model_prediction,scalar_confidence,self_reported_confidence,failure_family,image_path
+pope_random_17,POPE,Is there a car in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000429109.jpg
+pope_random_23,POPE,Is there a car in the image?,yes,no,0.961,,object_hallucination,data/POPE/images/COCO_val2014_000000211674.jpg
+pope_random_35,POPE,Is there a bed in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000283412.jpg
+pope_random_43,POPE,Is there a tv in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000461331.jpg
+pope_random_65,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000574692.jpg
+pope_random_96,POPE,Is there a tie in the image?,no,yes,0.812,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000300368.jpg
+pope_random_99,POPE,Is there a remote in the image?,yes,no,0.864,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000482476.jpg
+pope_random_121,POPE,Is there a bowl in the image?,yes,no,0.929,,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_random_123,POPE,Is there a spoon in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_random_141,POPE,Is there a toothbrush in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_random_143,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_random_149,POPE,Is there a car in the image?,yes,no,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000218224.jpg
+pope_random_171,POPE,Is there a truck in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000421455.jpg
+pope_random_179,POPE,Is there a bottle in the image?,yes,no,0.880,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000288639.jpg
+pope_random_197,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000526321.jpg
+pope_random_199,POPE,Is there a snowboard in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000042190.jpg
+pope_random_217,POPE,Is there a person in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000498759.jpg
+pope_random_229,POPE,Is there a tv in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000031773.jpg
+pope_random_234,POPE,Is there a vase in the image?,no,yes,0.950,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000031773.jpg
+pope_random_241,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000574057.jpg
+pope_random_247,POPE,Is there a traffic light in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456178.jpg
+pope_random_259,POPE,Is there a car in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000485564.jpg
+pope_random_265,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454642.jpg
+pope_random_297,POPE,Is there a spoon in the image?,yes,no,0.863,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000480122.jpg
+pope_random_321,POPE,Is there a dining table in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000538236.jpg
+pope_random_327,POPE,Is there an orange in the image?,yes,no,0.921,,object_hallucination,data/POPE/images/COCO_val2014_000000236865.jpg
+pope_random_341,POPE,Is there a book in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000060213.jpg
+pope_random_353,POPE,Is there a bicycle in the image?,yes,no,0.965,,object_hallucination,data/POPE/images/COCO_val2014_000000084447.jpg
+pope_random_357,POPE,Is there a dining table in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_random_359,POPE,Is there a refrigerator in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_random_365,POPE,Is there a broccoli in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000575755.jpg
+pope_random_371,POPE,Is there a dining table in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000354088.jpg
+pope_random_377,POPE,Is there a handbag in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000311327.jpg
+pope_random_381,POPE,Is there a bench in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456552.jpg
+pope_random_387,POPE,Is there a bottle in the image?,yes,no,0.812,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000350898.jpg
+pope_random_399,POPE,Is there a clock in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000021645.jpg
+pope_random_404,POPE,Is there a remote in the image?,no,yes,0.823,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528905.jpg
+pope_random_438,POPE,Is there a backpack in the image?,no,yes,0.912,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000564336.jpg
+pope_random_443,POPE,Is there a couch in the image?,yes,no,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000231589.jpg
+pope_random_455,POPE,Is there a sports ball in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000083275.jpg
+pope_random_457,POPE,Is there a snowboard in the image?,yes,no,0.915,,object_hallucination,data/POPE/images/COCO_val2014_000000406403.jpg
+pope_random_486,POPE,Is there a tie in the image?,no,yes,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318204.jpg
+pope_random_489,POPE,Is there a laptop in the image?,yes,no,0.834,,object_hallucination,data/POPE/images/COCO_val2014_000000455157.jpg
+pope_random_513,POPE,Is there an orange in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000175506.jpg
+pope_random_517,POPE,Is there a tv in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_random_521,POPE,Is there a laptop in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_random_553,POPE,Is there a dog in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000190185.jpg
+pope_random_559,POPE,Is there a spoon in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000209755.jpg
+pope_random_617,POPE,Is there a spoon in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000580294.jpg
+pope_random_627,POPE,Is there a backpack in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000094944.jpg
+pope_random_631,POPE,Is there a bowl in the image?,yes,no,0.936,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000572075.jpg
+pope_random_637,POPE,Is there a spoon in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000387098.jpg
+pope_random_659,POPE,Is there a backpack in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000204360.jpg
+pope_random_667,POPE,Is there a person in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_random_671,POPE,Is there a dining table in the image?,yes,no,0.894,,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_random_695,POPE,Is there a dining table in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000366141.jpg
+pope_random_705,POPE,Is there a bench in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000032610.jpg
+pope_random_717,POPE,Is there a bowl in the image?,yes,no,0.898,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_random_719,POPE,Is there a bottle in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_random_735,POPE,Is there a clock in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000113701.jpg
+pope_random_759,POPE,Is there a train in the image?,yes,no,0.943,,object_hallucination,data/POPE/images/COCO_val2014_000000044520.jpg
+pope_random_765,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_random_767,POPE,Is there a microwave in the image?,yes,no,0.903,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_random_773,POPE,Is there a dining table in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000203479.jpg
+pope_random_779,POPE,Is there a dining table in the image?,yes,no,0.938,,object_hallucination,data/POPE/images/COCO_val2014_000000551881.jpg
+pope_random_787,POPE,Is there a clock in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000007795.jpg
+pope_random_793,POPE,Is there a bottle in the image?,yes,no,0.857,,object_hallucination,data/POPE/images/COCO_val2014_000000303099.jpg
+pope_random_821,POPE,Is there a handbag in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000500473.jpg
+pope_random_843,POPE,Is there a chair in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000443240.jpg
+pope_random_847,POPE,Is there a truck in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000288042.jpg
+pope_random_863,POPE,Is there a laptop in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000208028.jpg
+pope_random_873,POPE,Is there a bottle in the image?,yes,no,0.924,,object_hallucination,data/POPE/images/COCO_val2014_000000424642.jpg
+pope_random_887,POPE,Is there a car in the image?,yes,no,0.876,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000087435.jpg
+pope_random_888,POPE,Is there a tv in the image?,no,yes,0.888,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000087435.jpg
+pope_random_897,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000354398.jpg
+pope_random_903,POPE,Is there a bird in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000430052.jpg
+pope_random_923,POPE,Is there a bed in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000551908.jpg
+pope_random_927,POPE,Is there a car in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000102906.jpg
+pope_random_935,POPE,Is there a dining table in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000327771.jpg
+pope_random_943,POPE,Is there a person in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_random_945,POPE,Is there a cup in the image?,yes,no,0.988,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_random_951,POPE,Is there a handbag in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000379162.jpg
+pope_random_957,POPE,Is there a person in the image?,yes,no,0.848,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000489728.jpg
+pope_random_969,POPE,Is there a person in the image?,yes,no,0.974,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000358255.jpg
+pope_random_977,POPE,Is there a bicycle in the image?,yes,no,0.964,,object_hallucination,data/POPE/images/COCO_val2014_000000178078.jpg
+pope_random_981,POPE,Is there a handbag in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_random_987,POPE,Is there a cake in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_random_989,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_random_992,POPE,Is there a chair in the image?,no,yes,0.951,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506483.jpg
+pope_random_996,POPE,Is there a motorcycle in the image?,no,yes,0.972,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506483.jpg
+pope_random_997,POPE,Is there a banana in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000468934.jpg
+pope_random_1011,POPE,Is there an orange in the image?,yes,no,0.907,,object_hallucination,data/POPE/images/COCO_val2014_000000273450.jpg
+pope_random_1028,POPE,Is there a toaster in the image?,no,yes,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000153300.jpg
+pope_random_1035,POPE,Is there a bed in the image?,yes,no,0.845,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506178.jpg
+pope_random_1038,POPE,Is there a chair in the image?,no,yes,0.968,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506178.jpg
+pope_random_1043,POPE,Is there a traffic light in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000249720.jpg
+pope_random_1049,POPE,Is there a car in the image?,yes,no,0.959,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000205206.jpg
+pope_random_1051,POPE,Is there a backpack in the image?,yes,no,0.984,,object_hallucination,data/POPE/images/COCO_val2014_000000018150.jpg
+pope_random_1065,POPE,Is there a sports ball in the image?,yes,no,0.956,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000278771.jpg
+pope_random_1073,POPE,Is there a bottle in the image?,yes,no,0.907,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000134075.jpg
+pope_random_1101,POPE,Is there a broccoli in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000316700.jpg
+pope_random_1107,POPE,Is there a sports ball in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000040361.jpg
+pope_random_1113,POPE,Is there a bowl in the image?,yes,no,0.926,,object_hallucination,data/POPE/images/COCO_val2014_000000378873.jpg
+pope_random_1133,POPE,Is there a dining table in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000525667.jpg
+pope_random_1134,POPE,Is there a truck in the image?,no,yes,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000525667.jpg
+pope_random_1141,POPE,Is there a pizza in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000313162.jpg
+pope_random_1167,POPE,Is there a spoon in the image?,yes,no,0.897,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_random_1169,POPE,Is there a bowl in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_random_1171,POPE,Is there a pizza in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000513136.jpg
+pope_random_1181,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000184338.jpg
+pope_random_1193,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000498100.jpg
+pope_random_1209,POPE,Is there a bowl in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_random_1211,POPE,Is there a spoon in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_random_1219,POPE,Is there a truck in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_random_1223,POPE,Is there a bed in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_random_1225,POPE,Is there a truck in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377401.jpg
+pope_random_1233,POPE,Is there a book in the image?,yes,no,0.876,,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_random_1235,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_random_1245,POPE,Is there a spoon in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_random_1247,POPE,Is there a bowl in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_random_1249,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_random_1251,POPE,Is there a bowl in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_random_1271,POPE,Is there a bicycle in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000244455.jpg
+pope_random_1276,POPE,Is there a chair in the image?,no,yes,0.982,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000303652.jpg
+pope_random_1287,POPE,Is there a person in the image?,yes,no,0.991,,object_hallucination,data/POPE/images/COCO_val2014_000000201148.jpg
+pope_random_1295,POPE,Is there an oven in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307166.jpg
+pope_random_1298,POPE,Is there a horse in the image?,no,yes,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000313034.jpg
+pope_random_1301,POPE,Is there a bottle in the image?,yes,no,0.899,,object_hallucination,data/POPE/images/COCO_val2014_000000313034.jpg
+pope_random_1313,POPE,Is there a dining table in the image?,yes,no,0.918,,object_hallucination,data/POPE/images/COCO_val2014_000000333237.jpg
+pope_random_1327,POPE,Is there a tv in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000287035.jpg
+pope_random_1333,POPE,Is there a person in the image?,yes,no,0.891,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_random_1335,POPE,Is there a cell phone in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_random_1357,POPE,Is there a person in the image?,yes,no,0.910,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000505542.jpg
+pope_random_1367,POPE,Is there a cow in the image?,yes,no,0.949,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000115636.jpg
+pope_random_1381,POPE,Is there a traffic light in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000534516.jpg
+pope_random_1413,POPE,Is there a boat in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000200583.jpg
+pope_random_1428,POPE,Is there a tv in the image?,no,yes,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100215.jpg
+pope_random_1433,POPE,Is there a person in the image?,yes,no,0.977,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000017379.jpg
+pope_random_1437,POPE,Is there a scissors in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000511622.jpg
+pope_random_1441,POPE,Is there a tv in the image?,yes,no,0.934,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_random_1445,POPE,Is there a dining table in the image?,yes,no,0.937,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_random_1467,POPE,Is there a toothbrush in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000391735.jpg
+pope_random_1477,POPE,Is there a snowboard in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000463542.jpg
+pope_random_1501,POPE,Is there a spoon in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384040.jpg
+pope_random_1510,POPE,Is there a bowl in the image?,no,yes,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000023731.jpg
+pope_random_1541,POPE,Is there a dining table in the image?,yes,no,0.895,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_random_1543,POPE,Is there a bird in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000016775.jpg
+pope_random_1549,POPE,Is there a truck in the image?,yes,no,0.804,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_random_1551,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_random_1553,POPE,Is there a sports ball in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_random_1567,POPE,Is there a person in the image?,yes,no,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000550691.jpg
+pope_random_1591,POPE,Is there a person in the image?,yes,no,0.985,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_random_1593,POPE,Is there a car in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_random_1606,POPE,Is there a potted plant in the image?,no,yes,0.902,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000472143.jpg
+pope_random_1607,POPE,Is there a dining table in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000472143.jpg
+pope_random_1615,POPE,Is there a snowboard in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000214244.jpg
+pope_random_1627,POPE,Is there a bowl in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_random_1629,POPE,Is there a sandwich in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_random_1631,POPE,Is there a hot dog in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_random_1643,POPE,Is there a sports ball in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000259755.jpg
+pope_random_1646,POPE,Is there a truck in the image?,no,yes,0.959,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000281028.jpg
+pope_random_1647,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000281028.jpg
+pope_random_1657,POPE,Is there a bottle in the image?,yes,no,0.946,,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_random_1659,POPE,Is there a cake in the image?,yes,no,0.855,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_random_1661,POPE,Is there a cup in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_random_1673,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000097994.jpg
+pope_random_1677,POPE,Is there a clock in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000246999.jpg
+pope_random_1699,POPE,Is there a sandwich in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000108189.jpg
+pope_random_1709,POPE,Is there a couch in the image?,yes,no,0.919,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000301575.jpg
+pope_random_1719,POPE,Is there a clock in the image?,yes,no,0.956,,object_hallucination,data/POPE/images/COCO_val2014_000000354976.jpg
+pope_random_1725,POPE,Is there a handbag in the image?,yes,no,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000473199.jpg
+pope_random_1729,POPE,Is there a backpack in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000311759.jpg
+pope_random_1741,POPE,Is there a car in the image?,yes,no,0.979,,object_hallucination,data/POPE/images/COCO_val2014_000000343401.jpg
+pope_random_1751,POPE,Is there a dining table in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000246199.jpg
+pope_random_1761,POPE,Is there a bowl in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_random_1763,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_random_1797,POPE,Is there a bottle in the image?,yes,no,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100238.jpg
+pope_random_1811,POPE,Is there a person in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000392364.jpg
+pope_random_1819,POPE,Is there a clock in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000436127.jpg
+pope_random_1831,POPE,Is there an oven in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000349936.jpg
+pope_random_1843,POPE,Is there a backpack in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000474741.jpg
+pope_random_1853,POPE,Is there a laptop in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000286342.jpg
+pope_random_1855,POPE,Is there a tv in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_random_1859,POPE,Is there a laptop in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_random_1877,POPE,Is there a spoon in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000147165.jpg
+pope_random_1891,POPE,Is there a tv in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_random_1895,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_random_1911,POPE,Is there an orange in the image?,yes,no,0.863,,object_hallucination,data/POPE/images/COCO_val2014_000000459680.jpg
+pope_random_1919,POPE,Is there a cup in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_random_1935,POPE,Is there a bottle in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000505335.jpg
+pope_random_1947,POPE,Is there a person in the image?,yes,no,0.980,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384970.jpg
+pope_random_1951,POPE,Is there a wine glass in the image?,yes,no,0.935,,object_hallucination,data/POPE/images/COCO_val2014_000000572260.jpg
+pope_random_1959,POPE,Is there a dining table in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000418471.jpg
+pope_random_1967,POPE,Is there a dining table in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000379404.jpg
+pope_random_1973,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000044801.jpg
+pope_random_2000,POPE,Is there a stop sign in the image?,no,yes,0.933,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000308907.jpg
+pope_random_2001,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000308907.jpg
+pope_random_2007,POPE,Is there a truck in the image?,yes,no,0.836,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000263594.jpg
+pope_random_2023,POPE,Is there a truck in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_random_2027,POPE,Is there a car in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_random_2031,POPE,Is there a person in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454607.jpg
+pope_random_2053,POPE,Is there an oven in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000167724.jpg
+pope_random_2065,POPE,Is there a person in the image?,yes,no,0.951,,object_hallucination,data/POPE/images/COCO_val2014_000000076416.jpg
+pope_random_2079,POPE,Is there a broccoli in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000445200.jpg
+pope_random_2084,POPE,Is there a book in the image?,no,yes,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000433574.jpg
+pope_random_2087,POPE,Is there a dining table in the image?,yes,no,0.939,,object_hallucination,data/POPE/images/COCO_val2014_000000433574.jpg
+pope_random_2095,POPE,Is there a person in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000114941.jpg
+pope_random_2100,POPE,Is there a tie in the image?,no,yes,0.850,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000114941.jpg
+pope_random_2101,POPE,Is there a remote in the image?,yes,no,0.834,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000493753.jpg
+pope_random_2115,POPE,Is there a dining table in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000382617.jpg
+pope_random_2153,POPE,Is there an orange in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000088507.jpg
+pope_random_2155,POPE,Is there a person in the image?,yes,no,0.940,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_random_2159,POPE,Is there an umbrella in the image?,yes,no,0.873,,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_random_2173,POPE,Is there a chair in the image?,yes,no,0.862,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501652.jpg
+pope_random_2189,POPE,Is there an oven in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000332908.jpg
+pope_random_2205,POPE,Is there a sports ball in the image?,yes,no,0.980,,object_hallucination,data/POPE/images/COCO_val2014_000000023084.jpg
+pope_random_2213,POPE,Is there a sink in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000545353.jpg
+pope_random_2230,POPE,Is there a sheep in the image?,no,yes,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233521.jpg
+pope_random_2240,POPE,Is there a person in the image?,no,yes,0.950,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000304819.jpg
+pope_random_2245,POPE,Is there a clock in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_random_2247,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_random_2251,POPE,Is there a backpack in the image?,yes,no,0.838,,object_hallucination,data/POPE/images/COCO_val2014_000000199940.jpg
+pope_random_2263,POPE,Is there a giraffe in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000235541.jpg
+pope_random_2269,POPE,Is there a tv in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000068418.jpg
+pope_random_2309,POPE,Is there a carrot in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000579277.jpg
+pope_random_2313,POPE,Is there a bowl in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000042685.jpg
+pope_random_2375,POPE,Is there a sports ball in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000325347.jpg
+pope_random_2377,POPE,Is there a traffic light in the image?,yes,no,0.810,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_random_2381,POPE,Is there a truck in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_random_2387,POPE,Is there a suitcase in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000061507.jpg
+pope_random_2411,POPE,Is there a bottle in the image?,yes,no,0.903,,object_hallucination,data/POPE/images/COCO_val2014_000000307262.jpg
+pope_random_2428,POPE,Is there a bowl in the image?,no,yes,0.862,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000472375.jpg
+pope_random_2443,POPE,Is there a person in the image?,yes,no,0.997,,object_hallucination,data/POPE/images/COCO_val2014_000000238029.jpg
+pope_random_2446,POPE,Is there an orange in the image?,no,yes,0.883,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000238029.jpg
+pope_random_2463,POPE,Is there a bowl in the image?,yes,no,0.905,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_random_2465,POPE,Is there a bottle in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_random_2473,POPE,Is there a chair in the image?,yes,no,0.950,,object_hallucination,data/POPE/images/COCO_val2014_000000388237.jpg
+pope_random_2481,POPE,Is there a cup in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_random_2486,POPE,Is there a fire hydrant in the image?,no,yes,0.883,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000071738.jpg
+pope_random_2489,POPE,Is there a motorcycle in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000071738.jpg
+pope_random_2497,POPE,Is there a tv in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000378751.jpg
+pope_random_2507,POPE,Is there a bicycle in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000073182.jpg
+pope_random_2511,POPE,Is there a car in the image?,yes,no,0.928,,object_hallucination,data/POPE/images/COCO_val2014_000000246928.jpg
+pope_random_2515,POPE,Is there a truck in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_random_2519,POPE,Is there a car in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_random_2571,POPE,Is there a bench in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000052689.jpg
+pope_random_2589,POPE,Is there a sports ball in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000142056.jpg
+pope_random_2602,POPE,Is there a tie in the image?,no,yes,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000521643.jpg
+pope_random_2619,POPE,Is there a suitcase in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000222118.jpg
+pope_random_2623,POPE,Is there a book in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000514292.jpg
+pope_random_2661,POPE,Is there a person in the image?,yes,no,0.996,,object_hallucination,data/POPE/images/COCO_val2014_000000405205.jpg
+pope_random_2673,POPE,Is there a sports ball in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000365317.jpg
+pope_random_2679,POPE,Is there a toilet in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000224155.jpg
+pope_random_2685,POPE,Is there an orange in the image?,yes,no,0.945,,object_hallucination,data/POPE/images/COCO_val2014_000000191964.jpg
+pope_random_2691,POPE,Is there a bowl in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_random_2693,POPE,Is there an orange in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_random_2703,POPE,Is there a motorcycle in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000163814.jpg
+pope_random_2707,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000505933.jpg
+pope_random_2713,POPE,Is there a traffic light in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000318550.jpg
+pope_random_2721,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000367528.jpg
+pope_random_2729,POPE,Is there a boat in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000252911.jpg
+pope_random_2747,POPE,Is there a dining table in the image?,yes,no,0.833,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233426.jpg
+pope_random_2769,POPE,Is there a cow in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000092624.jpg
+pope_random_2785,POPE,Is there a spoon in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000465346.jpg
+pope_random_2795,POPE,Is there a horse in the image?,yes,no,0.949,,object_hallucination,data/POPE/images/COCO_val2014_000000514248.jpg
+pope_random_2799,POPE,Is there a chair in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000355776.jpg
+pope_random_2803,POPE,Is there a chair in the image?,yes,no,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_random_2808,POPE,Is there a cup in the image?,no,yes,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_random_2843,POPE,Is there a sports ball in the image?,yes,no,0.893,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000555538.jpg
+pope_random_2881,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000069863.jpg
+pope_random_2892,POPE,Is there a boat in the image?,no,yes,0.914,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000041180.jpg
+pope_random_2899,POPE,Is there a chair in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000554002.jpg
+pope_random_2905,POPE,Is there a tv in the image?,yes,no,0.908,,object_hallucination,data/POPE/images/COCO_val2014_000000141278.jpg
+pope_random_2930,POPE,Is there a remote in the image?,no,yes,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000533201.jpg
+pope_random_2941,POPE,Is there a baseball glove in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_random_2945,POPE,Is there a sports ball in the image?,yes,no,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_random_2955,POPE,Is there a sports ball in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000323752.jpg
+pope_random_2959,POPE,Is there a spoon in the image?,yes,no,0.796,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000003845.jpg
+pope_random_2993,POPE,Is there a spoon in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000361430.jpg
+pope_random_2996,POPE,Is there a tie in the image?,no,yes,0.800,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000277289.jpg
+pope_random_2997,POPE,Is there a bowl in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000277289.jpg
+pope_popular_10,POPE,Is there a car in the image?,no,yes,0.993,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000210789.jpg
+pope_popular_17,POPE,Is there a car in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000429109.jpg
+pope_popular_23,POPE,Is there a car in the image?,yes,no,0.961,,object_hallucination,data/POPE/images/COCO_val2014_000000211674.jpg
+pope_popular_35,POPE,Is there a bed in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000283412.jpg
+pope_popular_38,POPE,Is there a dining table in the image?,no,yes,0.948,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000265719.jpg
+pope_popular_43,POPE,Is there a tv in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000461331.jpg
+pope_popular_65,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000574692.jpg
+pope_popular_82,POPE,Is there a bottle in the image?,no,yes,0.930,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000569839.jpg
+pope_popular_84,POPE,Is there a backpack in the image?,no,yes,0.991,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000569839.jpg
+pope_popular_99,POPE,Is there a remote in the image?,yes,no,0.864,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000482476.jpg
+pope_popular_121,POPE,Is there a bowl in the image?,yes,no,0.929,,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_popular_123,POPE,Is there a spoon in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_popular_141,POPE,Is there a toothbrush in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_popular_143,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_popular_146,POPE,Is there a person in the image?,no,yes,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000218224.jpg
+pope_popular_149,POPE,Is there a car in the image?,yes,no,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000218224.jpg
+pope_popular_166,POPE,Is there a car in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000140583.jpg
+pope_popular_171,POPE,Is there a truck in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000421455.jpg
+pope_popular_179,POPE,Is there a bottle in the image?,yes,no,0.880,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000288639.jpg
+pope_popular_197,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000526321.jpg
+pope_popular_199,POPE,Is there a snowboard in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000042190.jpg
+pope_popular_217,POPE,Is there a person in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000498759.jpg
+pope_popular_229,POPE,Is there a tv in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000031773.jpg
+pope_popular_241,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000574057.jpg
+pope_popular_247,POPE,Is there a traffic light in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456178.jpg
+pope_popular_259,POPE,Is there a car in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000485564.jpg
+pope_popular_265,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454642.jpg
+pope_popular_297,POPE,Is there a spoon in the image?,yes,no,0.863,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000480122.jpg
+pope_popular_321,POPE,Is there a dining table in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000538236.jpg
+pope_popular_327,POPE,Is there an orange in the image?,yes,no,0.921,,object_hallucination,data/POPE/images/COCO_val2014_000000236865.jpg
+pope_popular_341,POPE,Is there a book in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000060213.jpg
+pope_popular_353,POPE,Is there a bicycle in the image?,yes,no,0.965,,object_hallucination,data/POPE/images/COCO_val2014_000000084447.jpg
+pope_popular_357,POPE,Is there a dining table in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_popular_359,POPE,Is there a refrigerator in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_popular_365,POPE,Is there a broccoli in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000575755.jpg
+pope_popular_371,POPE,Is there a dining table in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000354088.jpg
+pope_popular_372,POPE,Is there a bottle in the image?,no,yes,0.883,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000354088.jpg
+pope_popular_377,POPE,Is there a handbag in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000311327.jpg
+pope_popular_381,POPE,Is there a bench in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456552.jpg
+pope_popular_387,POPE,Is there a bottle in the image?,yes,no,0.812,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000350898.jpg
+pope_popular_399,POPE,Is there a clock in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000021645.jpg
+pope_popular_436,POPE,Is there a backpack in the image?,no,yes,0.912,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000564336.jpg
+pope_popular_438,POPE,Is there a handbag in the image?,no,yes,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000564336.jpg
+pope_popular_443,POPE,Is there a couch in the image?,yes,no,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000231589.jpg
+pope_popular_455,POPE,Is there a sports ball in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000083275.jpg
+pope_popular_457,POPE,Is there a snowboard in the image?,yes,no,0.915,,object_hallucination,data/POPE/images/COCO_val2014_000000406403.jpg
+pope_popular_489,POPE,Is there a laptop in the image?,yes,no,0.834,,object_hallucination,data/POPE/images/COCO_val2014_000000455157.jpg
+pope_popular_500,POPE,Is there a car in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000199764.jpg
+pope_popular_513,POPE,Is there an orange in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000175506.jpg
+pope_popular_517,POPE,Is there a tv in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_popular_521,POPE,Is there a laptop in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_popular_526,POPE,Is there a dining table in the image?,no,yes,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000207205.jpg
+pope_popular_534,POPE,Is there a chair in the image?,no,yes,0.981,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000427113.jpg
+pope_popular_553,POPE,Is there a dog in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000190185.jpg
+pope_popular_556,POPE,Is there a dining table in the image?,no,yes,0.986,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000190185.jpg
+pope_popular_559,POPE,Is there a spoon in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000209755.jpg
+pope_popular_610,POPE,Is there a chair in the image?,no,yes,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000520524.jpg
+pope_popular_617,POPE,Is there a spoon in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000580294.jpg
+pope_popular_627,POPE,Is there a backpack in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000094944.jpg
+pope_popular_631,POPE,Is there a bowl in the image?,yes,no,0.936,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000572075.jpg
+pope_popular_637,POPE,Is there a spoon in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000387098.jpg
+pope_popular_659,POPE,Is there a backpack in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000204360.jpg
+pope_popular_667,POPE,Is there a person in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_popular_671,POPE,Is there a dining table in the image?,yes,no,0.894,,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_popular_695,POPE,Is there a dining table in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000366141.jpg
+pope_popular_705,POPE,Is there a bench in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000032610.jpg
+pope_popular_717,POPE,Is there a bowl in the image?,yes,no,0.898,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_popular_719,POPE,Is there a bottle in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_popular_735,POPE,Is there a clock in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000113701.jpg
+pope_popular_759,POPE,Is there a train in the image?,yes,no,0.943,,object_hallucination,data/POPE/images/COCO_val2014_000000044520.jpg
+pope_popular_765,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_popular_767,POPE,Is there a microwave in the image?,yes,no,0.903,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_popular_773,POPE,Is there a dining table in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000203479.jpg
+pope_popular_779,POPE,Is there a dining table in the image?,yes,no,0.938,,object_hallucination,data/POPE/images/COCO_val2014_000000551881.jpg
+pope_popular_787,POPE,Is there a clock in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000007795.jpg
+pope_popular_793,POPE,Is there a bottle in the image?,yes,no,0.857,,object_hallucination,data/POPE/images/COCO_val2014_000000303099.jpg
+pope_popular_808,POPE,Is there a car in the image?,no,yes,0.901,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000102439.jpg
+pope_popular_821,POPE,Is there a handbag in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000500473.jpg
+pope_popular_838,POPE,Is there a backpack in the image?,no,yes,0.972,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000300876.jpg
+pope_popular_843,POPE,Is there a chair in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000443240.jpg
+pope_popular_847,POPE,Is there a truck in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000288042.jpg
+pope_popular_850,POPE,Is there a car in the image?,no,yes,0.929,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000288042.jpg
+pope_popular_863,POPE,Is there a laptop in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000208028.jpg
+pope_popular_873,POPE,Is there a bottle in the image?,yes,no,0.924,,object_hallucination,data/POPE/images/COCO_val2014_000000424642.jpg
+pope_popular_887,POPE,Is there a car in the image?,yes,no,0.876,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000087435.jpg
+pope_popular_897,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000354398.jpg
+pope_popular_903,POPE,Is there a bird in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000430052.jpg
+pope_popular_923,POPE,Is there a bed in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000551908.jpg
+pope_popular_927,POPE,Is there a car in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000102906.jpg
+pope_popular_935,POPE,Is there a dining table in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000327771.jpg
+pope_popular_943,POPE,Is there a person in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_popular_945,POPE,Is there a cup in the image?,yes,no,0.988,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_popular_951,POPE,Is there a handbag in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000379162.jpg
+pope_popular_957,POPE,Is there a person in the image?,yes,no,0.848,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000489728.jpg
+pope_popular_969,POPE,Is there a person in the image?,yes,no,0.974,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000358255.jpg
+pope_popular_977,POPE,Is there a bicycle in the image?,yes,no,0.964,,object_hallucination,data/POPE/images/COCO_val2014_000000178078.jpg
+pope_popular_981,POPE,Is there a handbag in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_popular_982,POPE,Is there a cup in the image?,no,yes,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_popular_984,POPE,Is there a bottle in the image?,no,yes,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_popular_987,POPE,Is there a cake in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_popular_989,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_popular_994,POPE,Is there a chair in the image?,no,yes,0.951,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506483.jpg
+pope_popular_997,POPE,Is there a banana in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000468934.jpg
+pope_popular_1011,POPE,Is there an orange in the image?,yes,no,0.907,,object_hallucination,data/POPE/images/COCO_val2014_000000273450.jpg
+pope_popular_1035,POPE,Is there a bed in the image?,yes,no,0.845,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506178.jpg
+pope_popular_1038,POPE,Is there a chair in the image?,no,yes,0.968,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506178.jpg
+pope_popular_1043,POPE,Is there a traffic light in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000249720.jpg
+pope_popular_1049,POPE,Is there a car in the image?,yes,no,0.959,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000205206.jpg
+pope_popular_1051,POPE,Is there a backpack in the image?,yes,no,0.984,,object_hallucination,data/POPE/images/COCO_val2014_000000018150.jpg
+pope_popular_1065,POPE,Is there a sports ball in the image?,yes,no,0.956,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000278771.jpg
+pope_popular_1068,POPE,Is there a chair in the image?,no,yes,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000278771.jpg
+pope_popular_1073,POPE,Is there a bottle in the image?,yes,no,0.907,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000134075.jpg
+pope_popular_1101,POPE,Is there a broccoli in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000316700.jpg
+pope_popular_1107,POPE,Is there a sports ball in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000040361.jpg
+pope_popular_1112,POPE,Is there a car in the image?,no,yes,0.910,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000378873.jpg
+pope_popular_1113,POPE,Is there a bowl in the image?,yes,no,0.926,,object_hallucination,data/POPE/images/COCO_val2014_000000378873.jpg
+pope_popular_1126,POPE,Is there a dining table in the image?,no,yes,0.798,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000011241.jpg
+pope_popular_1133,POPE,Is there a dining table in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000525667.jpg
+pope_popular_1141,POPE,Is there a pizza in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000313162.jpg
+pope_popular_1150,POPE,Is there a car in the image?,no,yes,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000529668.jpg
+pope_popular_1167,POPE,Is there a spoon in the image?,yes,no,0.897,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_popular_1169,POPE,Is there a bowl in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_popular_1171,POPE,Is there a pizza in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000513136.jpg
+pope_popular_1178,POPE,Is there a dining table in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000184338.jpg
+pope_popular_1181,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000184338.jpg
+pope_popular_1193,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000498100.jpg
+pope_popular_1194,POPE,Is there a cup in the image?,no,yes,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000498100.jpg
+pope_popular_1208,POPE,Is there a dining table in the image?,no,yes,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_popular_1209,POPE,Is there a bowl in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_popular_1211,POPE,Is there a spoon in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_popular_1219,POPE,Is there a truck in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_popular_1223,POPE,Is there a bed in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_popular_1225,POPE,Is there a truck in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377401.jpg
+pope_popular_1233,POPE,Is there a book in the image?,yes,no,0.876,,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_popular_1235,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_popular_1245,POPE,Is there a spoon in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_popular_1247,POPE,Is there a bowl in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_popular_1249,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_popular_1251,POPE,Is there a bowl in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_popular_1254,POPE,Is there a bottle in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_popular_1271,POPE,Is there a bicycle in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000244455.jpg
+pope_popular_1278,POPE,Is there a chair in the image?,no,yes,0.982,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000303652.jpg
+pope_popular_1287,POPE,Is there a person in the image?,yes,no,0.991,,object_hallucination,data/POPE/images/COCO_val2014_000000201148.jpg
+pope_popular_1292,POPE,Is there a person in the image?,no,yes,0.888,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307166.jpg
+pope_popular_1295,POPE,Is there an oven in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307166.jpg
+pope_popular_1301,POPE,Is there a bottle in the image?,yes,no,0.899,,object_hallucination,data/POPE/images/COCO_val2014_000000313034.jpg
+pope_popular_1313,POPE,Is there a dining table in the image?,yes,no,0.918,,object_hallucination,data/POPE/images/COCO_val2014_000000333237.jpg
+pope_popular_1327,POPE,Is there a tv in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000287035.jpg
+pope_popular_1333,POPE,Is there a person in the image?,yes,no,0.891,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_popular_1335,POPE,Is there a cell phone in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_popular_1357,POPE,Is there a person in the image?,yes,no,0.910,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000505542.jpg
+pope_popular_1367,POPE,Is there a cow in the image?,yes,no,0.949,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000115636.jpg
+pope_popular_1381,POPE,Is there a traffic light in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000534516.jpg
+pope_popular_1392,POPE,Is there a cup in the image?,no,yes,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000123017.jpg
+pope_popular_1413,POPE,Is there a boat in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000200583.jpg
+pope_popular_1416,POPE,Is there a chair in the image?,no,yes,0.924,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000200583.jpg
+pope_popular_1426,POPE,Is there a dining table in the image?,no,yes,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100215.jpg
+pope_popular_1433,POPE,Is there a person in the image?,yes,no,0.977,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000017379.jpg
+pope_popular_1437,POPE,Is there a scissors in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000511622.jpg
+pope_popular_1441,POPE,Is there a tv in the image?,yes,no,0.934,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_popular_1445,POPE,Is there a dining table in the image?,yes,no,0.937,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_popular_1450,POPE,Is there a dining table in the image?,no,yes,0.991,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000039516.jpg
+pope_popular_1467,POPE,Is there a toothbrush in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000391735.jpg
+pope_popular_1477,POPE,Is there a snowboard in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000463542.jpg
+pope_popular_1501,POPE,Is there a spoon in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384040.jpg
+pope_popular_1541,POPE,Is there a dining table in the image?,yes,no,0.895,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_popular_1542,POPE,Is there a chair in the image?,no,yes,0.923,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_popular_1543,POPE,Is there a bird in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000016775.jpg
+pope_popular_1549,POPE,Is there a truck in the image?,yes,no,0.804,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_popular_1551,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_popular_1553,POPE,Is there a sports ball in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_popular_1567,POPE,Is there a person in the image?,yes,no,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000550691.jpg
+pope_popular_1578,POPE,Is there a chair in the image?,no,yes,0.951,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000204100.jpg
+pope_popular_1591,POPE,Is there a person in the image?,yes,no,0.985,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_popular_1593,POPE,Is there a car in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_popular_1602,POPE,Is there a chair in the image?,no,yes,0.919,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000309371.jpg
+pope_popular_1607,POPE,Is there a dining table in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000472143.jpg
+pope_popular_1615,POPE,Is there a snowboard in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000214244.jpg
+pope_popular_1627,POPE,Is there a bowl in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_popular_1629,POPE,Is there a sandwich in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_popular_1631,POPE,Is there a hot dog in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_popular_1642,POPE,Is there a car in the image?,no,yes,0.998,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000259755.jpg
+pope_popular_1643,POPE,Is there a sports ball in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000259755.jpg
+pope_popular_1647,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000281028.jpg
+pope_popular_1657,POPE,Is there a bottle in the image?,yes,no,0.946,,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_popular_1659,POPE,Is there a cake in the image?,yes,no,0.855,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_popular_1661,POPE,Is there a cup in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_popular_1673,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000097994.jpg
+pope_popular_1677,POPE,Is there a clock in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000246999.jpg
+pope_popular_1699,POPE,Is there a sandwich in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000108189.jpg
+pope_popular_1709,POPE,Is there a couch in the image?,yes,no,0.919,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000301575.jpg
+pope_popular_1719,POPE,Is there a clock in the image?,yes,no,0.956,,object_hallucination,data/POPE/images/COCO_val2014_000000354976.jpg
+pope_popular_1725,POPE,Is there a handbag in the image?,yes,no,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000473199.jpg
+pope_popular_1729,POPE,Is there a backpack in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000311759.jpg
+pope_popular_1741,POPE,Is there a car in the image?,yes,no,0.979,,object_hallucination,data/POPE/images/COCO_val2014_000000343401.jpg
+pope_popular_1744,POPE,Is there a chair in the image?,no,yes,0.882,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000343401.jpg
+pope_popular_1751,POPE,Is there a dining table in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000246199.jpg
+pope_popular_1761,POPE,Is there a bowl in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_popular_1763,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_popular_1768,POPE,Is there a car in the image?,no,yes,0.961,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501898.jpg
+pope_popular_1770,POPE,Is there a chair in the image?,no,yes,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501898.jpg
+pope_popular_1780,POPE,Is there a car in the image?,no,yes,0.959,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000245448.jpg
+pope_popular_1797,POPE,Is there a bottle in the image?,yes,no,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100238.jpg
+pope_popular_1811,POPE,Is there a person in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000392364.jpg
+pope_popular_1819,POPE,Is there a clock in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000436127.jpg
+pope_popular_1824,POPE,Is there a cup in the image?,no,yes,0.955,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000436127.jpg
+pope_popular_1831,POPE,Is there an oven in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000349936.jpg
+pope_popular_1843,POPE,Is there a backpack in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000474741.jpg
+pope_popular_1853,POPE,Is there a laptop in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000286342.jpg
+pope_popular_1855,POPE,Is there a tv in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_popular_1859,POPE,Is there a laptop in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_popular_1877,POPE,Is there a spoon in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000147165.jpg
+pope_popular_1891,POPE,Is there a tv in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_popular_1895,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_popular_1911,POPE,Is there an orange in the image?,yes,no,0.863,,object_hallucination,data/POPE/images/COCO_val2014_000000459680.jpg
+pope_popular_1916,POPE,Is there a person in the image?,no,yes,0.953,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_popular_1918,POPE,Is there a dining table in the image?,no,yes,0.975,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_popular_1919,POPE,Is there a cup in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_popular_1932,POPE,Is there a bowl in the image?,no,yes,0.804,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000356424.jpg
+pope_popular_1935,POPE,Is there a bottle in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000505335.jpg
+pope_popular_1947,POPE,Is there a person in the image?,yes,no,0.980,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384970.jpg
+pope_popular_1951,POPE,Is there a wine glass in the image?,yes,no,0.935,,object_hallucination,data/POPE/images/COCO_val2014_000000572260.jpg
+pope_popular_1956,POPE,Is there a car in the image?,no,yes,0.810,,object_hallucination,data/POPE/images/COCO_val2014_000000572260.jpg
+pope_popular_1959,POPE,Is there a dining table in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000418471.jpg
+pope_popular_1967,POPE,Is there a dining table in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000379404.jpg
+pope_popular_1973,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000044801.jpg
+pope_popular_2001,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000308907.jpg
+pope_popular_2007,POPE,Is there a truck in the image?,yes,no,0.836,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000263594.jpg
+pope_popular_2016,POPE,Is there a chair in the image?,no,yes,0.894,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501294.jpg
+pope_popular_2023,POPE,Is there a truck in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_popular_2027,POPE,Is there a car in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_popular_2031,POPE,Is there a person in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454607.jpg
+pope_popular_2053,POPE,Is there an oven in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000167724.jpg
+pope_popular_2065,POPE,Is there a person in the image?,yes,no,0.951,,object_hallucination,data/POPE/images/COCO_val2014_000000076416.jpg
+pope_popular_2079,POPE,Is there a broccoli in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000445200.jpg
+pope_popular_2087,POPE,Is there a dining table in the image?,yes,no,0.939,,object_hallucination,data/POPE/images/COCO_val2014_000000433574.jpg
+pope_popular_2095,POPE,Is there a person in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000114941.jpg
+pope_popular_2101,POPE,Is there a remote in the image?,yes,no,0.834,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000493753.jpg
+pope_popular_2115,POPE,Is there a dining table in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000382617.jpg
+pope_popular_2122,POPE,Is there a cup in the image?,no,yes,0.835,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000467887.jpg
+pope_popular_2153,POPE,Is there an orange in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000088507.jpg
+pope_popular_2155,POPE,Is there a person in the image?,yes,no,0.940,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_popular_2159,POPE,Is there an umbrella in the image?,yes,no,0.873,,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_popular_2166,POPE,Is there a chair in the image?,no,yes,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000155131.jpg
+pope_popular_2173,POPE,Is there a chair in the image?,yes,no,0.862,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501652.jpg
+pope_popular_2189,POPE,Is there an oven in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000332908.jpg
+pope_popular_2205,POPE,Is there a sports ball in the image?,yes,no,0.980,,object_hallucination,data/POPE/images/COCO_val2014_000000023084.jpg
+pope_popular_2213,POPE,Is there a sink in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000545353.jpg
+pope_popular_2240,POPE,Is there a person in the image?,no,yes,0.950,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000304819.jpg
+pope_popular_2245,POPE,Is there a clock in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_popular_2247,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_popular_2251,POPE,Is there a backpack in the image?,yes,no,0.838,,object_hallucination,data/POPE/images/COCO_val2014_000000199940.jpg
+pope_popular_2263,POPE,Is there a giraffe in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000235541.jpg
+pope_popular_2268,POPE,Is there a chair in the image?,no,yes,0.850,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000235541.jpg
+pope_popular_2269,POPE,Is there a tv in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000068418.jpg
+pope_popular_2309,POPE,Is there a carrot in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000579277.jpg
+pope_popular_2313,POPE,Is there a bowl in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000042685.jpg
+pope_popular_2328,POPE,Is there a chair in the image?,no,yes,0.948,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000243158.jpg
+pope_popular_2334,POPE,Is there a chair in the image?,no,yes,0.842,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000303971.jpg
+pope_popular_2375,POPE,Is there a sports ball in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000325347.jpg
+pope_popular_2377,POPE,Is there a traffic light in the image?,yes,no,0.810,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_popular_2381,POPE,Is there a truck in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_popular_2387,POPE,Is there a suitcase in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000061507.jpg
+pope_popular_2410,POPE,Is there a dining table in the image?,no,yes,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307262.jpg
+pope_popular_2411,POPE,Is there a bottle in the image?,yes,no,0.903,,object_hallucination,data/POPE/images/COCO_val2014_000000307262.jpg
+pope_popular_2443,POPE,Is there a person in the image?,yes,no,0.997,,object_hallucination,data/POPE/images/COCO_val2014_000000238029.jpg
+pope_popular_2463,POPE,Is there a bowl in the image?,yes,no,0.905,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_popular_2465,POPE,Is there a bottle in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_popular_2473,POPE,Is there a chair in the image?,yes,no,0.950,,object_hallucination,data/POPE/images/COCO_val2014_000000388237.jpg
+pope_popular_2481,POPE,Is there a cup in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_popular_2482,POPE,Is there a dining table in the image?,no,yes,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_popular_2489,POPE,Is there a motorcycle in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000071738.jpg
+pope_popular_2497,POPE,Is there a tv in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000378751.jpg
+pope_popular_2507,POPE,Is there a bicycle in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000073182.jpg
+pope_popular_2511,POPE,Is there a car in the image?,yes,no,0.928,,object_hallucination,data/POPE/images/COCO_val2014_000000246928.jpg
+pope_popular_2515,POPE,Is there a truck in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_popular_2519,POPE,Is there a car in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_popular_2571,POPE,Is there a bench in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000052689.jpg
+pope_popular_2574,POPE,Is there a chair in the image?,no,yes,0.902,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000052689.jpg
+pope_popular_2589,POPE,Is there a sports ball in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000142056.jpg
+pope_popular_2598,POPE,Is there a chair in the image?,no,yes,0.986,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000299986.jpg
+pope_popular_2619,POPE,Is there a suitcase in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000222118.jpg
+pope_popular_2623,POPE,Is there a book in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000514292.jpg
+pope_popular_2632,POPE,Is there a chair in the image?,no,yes,0.823,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000117527.jpg
+pope_popular_2661,POPE,Is there a person in the image?,yes,no,0.996,,object_hallucination,data/POPE/images/COCO_val2014_000000405205.jpg
+pope_popular_2673,POPE,Is there a sports ball in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000365317.jpg
+pope_popular_2679,POPE,Is there a toilet in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000224155.jpg
+pope_popular_2685,POPE,Is there an orange in the image?,yes,no,0.945,,object_hallucination,data/POPE/images/COCO_val2014_000000191964.jpg
+pope_popular_2691,POPE,Is there a bowl in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_popular_2693,POPE,Is there an orange in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_popular_2703,POPE,Is there a motorcycle in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000163814.jpg
+pope_popular_2707,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000505933.jpg
+pope_popular_2713,POPE,Is there a traffic light in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000318550.jpg
+pope_popular_2721,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000367528.jpg
+pope_popular_2729,POPE,Is there a boat in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000252911.jpg
+pope_popular_2747,POPE,Is there a dining table in the image?,yes,no,0.833,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233426.jpg
+pope_popular_2748,POPE,Is there a chair in the image?,no,yes,0.818,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233426.jpg
+pope_popular_2769,POPE,Is there a cow in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000092624.jpg
+pope_popular_2785,POPE,Is there a spoon in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000465346.jpg
+pope_popular_2795,POPE,Is there a horse in the image?,yes,no,0.949,,object_hallucination,data/POPE/images/COCO_val2014_000000514248.jpg
+pope_popular_2799,POPE,Is there a chair in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000355776.jpg
+pope_popular_2802,POPE,Is there a bottle in the image?,no,yes,0.850,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000355776.jpg
+pope_popular_2803,POPE,Is there a chair in the image?,yes,no,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_popular_2808,POPE,Is there a cup in the image?,no,yes,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_popular_2810,POPE,Is there a dining table in the image?,no,yes,0.849,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000396068.jpg
+pope_popular_2826,POPE,Is there a chair in the image?,no,yes,0.943,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000230175.jpg
+pope_popular_2843,POPE,Is there a sports ball in the image?,yes,no,0.893,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000555538.jpg
+pope_popular_2848,POPE,Is there a chair in the image?,no,yes,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000264155.jpg
+pope_popular_2854,POPE,Is there a car in the image?,no,yes,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000125572.jpg
+pope_popular_2881,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000069863.jpg
+pope_popular_2899,POPE,Is there a chair in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000554002.jpg
+pope_popular_2905,POPE,Is there a tv in the image?,yes,no,0.908,,object_hallucination,data/POPE/images/COCO_val2014_000000141278.jpg
+pope_popular_2914,POPE,Is there a chair in the image?,no,yes,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000190788.jpg
+pope_popular_2932,POPE,Is there a car in the image?,no,yes,0.996,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000533201.jpg
+pope_popular_2941,POPE,Is there a baseball glove in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_popular_2945,POPE,Is there a sports ball in the image?,yes,no,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_popular_2955,POPE,Is there a sports ball in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000323752.jpg
+pope_popular_2959,POPE,Is there a spoon in the image?,yes,no,0.796,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000003845.jpg
+pope_popular_2964,POPE,Is there a chair in the image?,no,yes,0.930,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000003845.jpg
+pope_popular_2968,POPE,Is there a chair in the image?,no,yes,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000122962.jpg
+pope_popular_2976,POPE,Is there a cup in the image?,no,yes,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000015738.jpg
+pope_popular_2993,POPE,Is there a spoon in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000361430.jpg
+pope_popular_2997,POPE,Is there a bowl in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000277289.jpg
+pope_adversarial_8,POPE,Is there a car in the image?,no,yes,0.993,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000210789.jpg
+pope_adversarial_17,POPE,Is there a car in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000429109.jpg
+pope_adversarial_23,POPE,Is there a car in the image?,yes,no,0.961,,object_hallucination,data/POPE/images/COCO_val2014_000000211674.jpg
+pope_adversarial_30,POPE,Is there a truck in the image?,no,yes,0.812,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000458338.jpg
+pope_adversarial_35,POPE,Is there a bed in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000283412.jpg
+pope_adversarial_42,POPE,Is there a dining table in the image?,no,yes,0.948,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000265719.jpg
+pope_adversarial_43,POPE,Is there a tv in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000461331.jpg
+pope_adversarial_65,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000574692.jpg
+pope_adversarial_82,POPE,Is there a bowl in the image?,no,yes,0.882,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000569839.jpg
+pope_adversarial_84,POPE,Is there a handbag in the image?,no,yes,0.957,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000569839.jpg
+pope_adversarial_88,POPE,Is there a truck in the image?,no,yes,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000219622.jpg
+pope_adversarial_99,POPE,Is there a remote in the image?,yes,no,0.864,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000482476.jpg
+pope_adversarial_108,POPE,Is there a bench in the image?,no,yes,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000131115.jpg
+pope_adversarial_110,POPE,Is there a bottle in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000157084.jpg
+pope_adversarial_121,POPE,Is there a bowl in the image?,yes,no,0.929,,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_adversarial_123,POPE,Is there a spoon in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000336872.jpg
+pope_adversarial_138,POPE,Is there a bottle in the image?,no,yes,0.818,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000516916.jpg
+pope_adversarial_141,POPE,Is there a toothbrush in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_adversarial_143,POPE,Is there a bottle in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000542145.jpg
+pope_adversarial_146,POPE,Is there a person in the image?,no,yes,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000218224.jpg
+pope_adversarial_149,POPE,Is there a car in the image?,yes,no,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000218224.jpg
+pope_adversarial_164,POPE,Is there a car in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000140583.jpg
+pope_adversarial_171,POPE,Is there a truck in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000421455.jpg
+pope_adversarial_179,POPE,Is there a bottle in the image?,yes,no,0.880,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000288639.jpg
+pope_adversarial_197,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000526321.jpg
+pope_adversarial_199,POPE,Is there a snowboard in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000042190.jpg
+pope_adversarial_217,POPE,Is there a person in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000498759.jpg
+pope_adversarial_228,POPE,Is there a spoon in the image?,no,yes,0.935,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000360600.jpg
+pope_adversarial_229,POPE,Is there a tv in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000031773.jpg
+pope_adversarial_241,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000574057.jpg
+pope_adversarial_246,POPE,Is there a book in the image?,no,yes,0.893,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000574057.jpg
+pope_adversarial_247,POPE,Is there a traffic light in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456178.jpg
+pope_adversarial_256,POPE,Is there a spoon in the image?,no,yes,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000565941.jpg
+pope_adversarial_259,POPE,Is there a car in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000485564.jpg
+pope_adversarial_265,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454642.jpg
+pope_adversarial_270,POPE,Is there a bicycle in the image?,no,yes,0.850,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454642.jpg
+pope_adversarial_297,POPE,Is there a spoon in the image?,yes,no,0.863,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000480122.jpg
+pope_adversarial_321,POPE,Is there a dining table in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000538236.jpg
+pope_adversarial_327,POPE,Is there an orange in the image?,yes,no,0.921,,object_hallucination,data/POPE/images/COCO_val2014_000000236865.jpg
+pope_adversarial_341,POPE,Is there a book in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000060213.jpg
+pope_adversarial_353,POPE,Is there a bicycle in the image?,yes,no,0.965,,object_hallucination,data/POPE/images/COCO_val2014_000000084447.jpg
+pope_adversarial_357,POPE,Is there a dining table in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_adversarial_359,POPE,Is there a refrigerator in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000192660.jpg
+pope_adversarial_365,POPE,Is there a broccoli in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000575755.jpg
+pope_adversarial_371,POPE,Is there a dining table in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000354088.jpg
+pope_adversarial_377,POPE,Is there a handbag in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000311327.jpg
+pope_adversarial_381,POPE,Is there a bench in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000456552.jpg
+pope_adversarial_386,POPE,Is there a bowl in the image?,no,yes,0.885,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000350898.jpg
+pope_adversarial_387,POPE,Is there a bottle in the image?,yes,no,0.812,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000350898.jpg
+pope_adversarial_396,POPE,Is there a vase in the image?,no,yes,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000170365.jpg
+pope_adversarial_399,POPE,Is there a clock in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000021645.jpg
+pope_adversarial_406,POPE,Is there a truck in the image?,no,yes,0.854,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528905.jpg
+pope_adversarial_434,POPE,Is there a handbag in the image?,no,yes,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000564336.jpg
+pope_adversarial_443,POPE,Is there a couch in the image?,yes,no,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000231589.jpg
+pope_adversarial_455,POPE,Is there a sports ball in the image?,yes,no,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000083275.jpg
+pope_adversarial_457,POPE,Is there a snowboard in the image?,yes,no,0.915,,object_hallucination,data/POPE/images/COCO_val2014_000000406403.jpg
+pope_adversarial_489,POPE,Is there a laptop in the image?,yes,no,0.834,,object_hallucination,data/POPE/images/COCO_val2014_000000455157.jpg
+pope_adversarial_502,POPE,Is there a car in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000199764.jpg
+pope_adversarial_510,POPE,Is there a sink in the image?,no,yes,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000148766.jpg
+pope_adversarial_513,POPE,Is there an orange in the image?,yes,no,0.904,,object_hallucination,data/POPE/images/COCO_val2014_000000175506.jpg
+pope_adversarial_517,POPE,Is there a tv in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_adversarial_521,POPE,Is there a laptop in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000353096.jpg
+pope_adversarial_526,POPE,Is there a dining table in the image?,no,yes,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000207205.jpg
+pope_adversarial_534,POPE,Is there a chair in the image?,no,yes,0.981,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000427113.jpg
+pope_adversarial_553,POPE,Is there a dog in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000190185.jpg
+pope_adversarial_558,POPE,Is there a dining table in the image?,no,yes,0.986,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000190185.jpg
+pope_adversarial_559,POPE,Is there a spoon in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000209755.jpg
+pope_adversarial_582,POPE,Is there a traffic light in the image?,no,yes,0.938,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000287305.jpg
+pope_adversarial_617,POPE,Is there a spoon in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000580294.jpg
+pope_adversarial_627,POPE,Is there a backpack in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000094944.jpg
+pope_adversarial_631,POPE,Is there a bowl in the image?,yes,no,0.936,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000572075.jpg
+pope_adversarial_637,POPE,Is there a spoon in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000387098.jpg
+pope_adversarial_659,POPE,Is there a backpack in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000204360.jpg
+pope_adversarial_667,POPE,Is there a person in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_adversarial_671,POPE,Is there a dining table in the image?,yes,no,0.894,,object_hallucination,data/POPE/images/COCO_val2014_000000237767.jpg
+pope_adversarial_695,POPE,Is there a dining table in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000366141.jpg
+pope_adversarial_705,POPE,Is there a bench in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000032610.jpg
+pope_adversarial_717,POPE,Is there a bowl in the image?,yes,no,0.898,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_adversarial_719,POPE,Is there a bottle in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000226097.jpg
+pope_adversarial_728,POPE,Is there a handbag in the image?,no,yes,0.990,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000114710.jpg
+pope_adversarial_735,POPE,Is there a clock in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000113701.jpg
+pope_adversarial_750,POPE,Is there a potted plant in the image?,no,yes,0.935,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000482275.jpg
+pope_adversarial_759,POPE,Is there a train in the image?,yes,no,0.943,,object_hallucination,data/POPE/images/COCO_val2014_000000044520.jpg
+pope_adversarial_765,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_adversarial_767,POPE,Is there a microwave in the image?,yes,no,0.903,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000518177.jpg
+pope_adversarial_773,POPE,Is there a dining table in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000203479.jpg
+pope_adversarial_779,POPE,Is there a dining table in the image?,yes,no,0.938,,object_hallucination,data/POPE/images/COCO_val2014_000000551881.jpg
+pope_adversarial_787,POPE,Is there a clock in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000007795.jpg
+pope_adversarial_793,POPE,Is there a bottle in the image?,yes,no,0.857,,object_hallucination,data/POPE/images/COCO_val2014_000000303099.jpg
+pope_adversarial_808,POPE,Is there a car in the image?,no,yes,0.901,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000102439.jpg
+pope_adversarial_820,POPE,Is there a bowl in the image?,no,yes,0.879,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000500473.jpg
+pope_adversarial_821,POPE,Is there a handbag in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000500473.jpg
+pope_adversarial_830,POPE,Is there a truck in the image?,no,yes,0.875,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000167110.jpg
+pope_adversarial_843,POPE,Is there a chair in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000443240.jpg
+pope_adversarial_847,POPE,Is there a truck in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000288042.jpg
+pope_adversarial_848,POPE,Is there a car in the image?,no,yes,0.929,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000288042.jpg
+pope_adversarial_863,POPE,Is there a laptop in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000208028.jpg
+pope_adversarial_873,POPE,Is there a bottle in the image?,yes,no,0.924,,object_hallucination,data/POPE/images/COCO_val2014_000000424642.jpg
+pope_adversarial_884,POPE,Is there a bicycle in the image?,no,yes,0.956,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000087435.jpg
+pope_adversarial_887,POPE,Is there a car in the image?,yes,no,0.876,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000087435.jpg
+pope_adversarial_897,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000354398.jpg
+pope_adversarial_902,POPE,Is there a potted plant in the image?,no,yes,0.867,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000430052.jpg
+pope_adversarial_903,POPE,Is there a bird in the image?,yes,no,0.954,,object_hallucination,data/POPE/images/COCO_val2014_000000430052.jpg
+pope_adversarial_908,POPE,Is there a bear in the image?,no,yes,0.989,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000567886.jpg
+pope_adversarial_912,POPE,Is there a tv in the image?,no,yes,0.988,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000567886.jpg
+pope_adversarial_923,POPE,Is there a bed in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000551908.jpg
+pope_adversarial_927,POPE,Is there a car in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000102906.jpg
+pope_adversarial_932,POPE,Is there a potted plant in the image?,no,yes,0.992,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327771.jpg
+pope_adversarial_935,POPE,Is there a dining table in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000327771.jpg
+pope_adversarial_936,POPE,Is there a cup in the image?,no,yes,0.798,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327771.jpg
+pope_adversarial_943,POPE,Is there a person in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_adversarial_945,POPE,Is there a cup in the image?,yes,no,0.988,,object_hallucination,data/POPE/images/COCO_val2014_000000111817.jpg
+pope_adversarial_951,POPE,Is there a handbag in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000379162.jpg
+pope_adversarial_957,POPE,Is there a person in the image?,yes,no,0.848,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000489728.jpg
+pope_adversarial_968,POPE,Is there a bear in the image?,no,yes,0.984,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000358255.jpg
+pope_adversarial_969,POPE,Is there a person in the image?,yes,no,0.974,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000358255.jpg
+pope_adversarial_977,POPE,Is there a bicycle in the image?,yes,no,0.964,,object_hallucination,data/POPE/images/COCO_val2014_000000178078.jpg
+pope_adversarial_981,POPE,Is there a handbag in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_adversarial_984,POPE,Is there a cup in the image?,no,yes,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000197219.jpg
+pope_adversarial_987,POPE,Is there a cake in the image?,yes,no,0.958,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_adversarial_989,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000460931.jpg
+pope_adversarial_992,POPE,Is there a handbag in the image?,no,yes,0.961,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506483.jpg
+pope_adversarial_996,POPE,Is there a truck in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506483.jpg
+pope_adversarial_997,POPE,Is there a banana in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000468934.jpg
+pope_adversarial_1011,POPE,Is there an orange in the image?,yes,no,0.907,,object_hallucination,data/POPE/images/COCO_val2014_000000273450.jpg
+pope_adversarial_1014,POPE,Is there a truck in the image?,no,yes,0.928,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000273450.jpg
+pope_adversarial_1035,POPE,Is there a bed in the image?,yes,no,0.845,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000506178.jpg
+pope_adversarial_1040,POPE,Is there a handbag in the image?,no,yes,0.883,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000249720.jpg
+pope_adversarial_1043,POPE,Is there a traffic light in the image?,yes,no,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000249720.jpg
+pope_adversarial_1049,POPE,Is there a car in the image?,yes,no,0.959,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000205206.jpg
+pope_adversarial_1051,POPE,Is there a backpack in the image?,yes,no,0.984,,object_hallucination,data/POPE/images/COCO_val2014_000000018150.jpg
+pope_adversarial_1060,POPE,Is there a handbag in the image?,no,yes,0.919,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000303534.jpg
+pope_adversarial_1065,POPE,Is there a sports ball in the image?,yes,no,0.956,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000278771.jpg
+pope_adversarial_1073,POPE,Is there a bottle in the image?,yes,no,0.907,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000134075.jpg
+pope_adversarial_1080,POPE,Is there an oven in the image?,no,yes,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000227204.jpg
+pope_adversarial_1090,POPE,Is there a bicycle in the image?,no,yes,0.808,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000142774.jpg
+pope_adversarial_1101,POPE,Is there a broccoli in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000316700.jpg
+pope_adversarial_1107,POPE,Is there a sports ball in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000040361.jpg
+pope_adversarial_1112,POPE,Is there a car in the image?,no,yes,0.910,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000378873.jpg
+pope_adversarial_1113,POPE,Is there a bowl in the image?,yes,no,0.926,,object_hallucination,data/POPE/images/COCO_val2014_000000378873.jpg
+pope_adversarial_1124,POPE,Is there a dining table in the image?,no,yes,0.798,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000011241.jpg
+pope_adversarial_1128,POPE,Is there a fork in the image?,no,yes,0.874,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000011241.jpg
+pope_adversarial_1133,POPE,Is there a dining table in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000525667.jpg
+pope_adversarial_1141,POPE,Is there a pizza in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000313162.jpg
+pope_adversarial_1148,POPE,Is there a car in the image?,no,yes,0.865,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000529668.jpg
+pope_adversarial_1158,POPE,Is there a handbag in the image?,no,yes,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000376959.jpg
+pope_adversarial_1167,POPE,Is there a spoon in the image?,yes,no,0.897,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_adversarial_1169,POPE,Is there a bowl in the image?,yes,no,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000327038.jpg
+pope_adversarial_1171,POPE,Is there a pizza in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000513136.jpg
+pope_adversarial_1181,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000184338.jpg
+pope_adversarial_1182,POPE,Is there a dining table in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000184338.jpg
+pope_adversarial_1193,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000498100.jpg
+pope_adversarial_1194,POPE,Is there a cup in the image?,no,yes,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000498100.jpg
+pope_adversarial_1209,POPE,Is there a bowl in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_adversarial_1210,POPE,Is there a dining table in the image?,no,yes,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_adversarial_1211,POPE,Is there a spoon in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000124930.jpg
+pope_adversarial_1216,POPE,Is there a backpack in the image?,no,yes,0.820,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000112664.jpg
+pope_adversarial_1219,POPE,Is there a truck in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_adversarial_1223,POPE,Is there a bed in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000377879.jpg
+pope_adversarial_1225,POPE,Is there a truck in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377401.jpg
+pope_adversarial_1232,POPE,Is there a potted plant in the image?,no,yes,0.852,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_adversarial_1233,POPE,Is there a book in the image?,yes,no,0.876,,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_adversarial_1235,POPE,Is there a dining table in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000049473.jpg
+pope_adversarial_1240,POPE,Is there a truck in the image?,no,yes,0.923,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000153865.jpg
+pope_adversarial_1242,POPE,Is there an umbrella in the image?,no,yes,0.960,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000153865.jpg
+pope_adversarial_1245,POPE,Is there a spoon in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_adversarial_1247,POPE,Is there a bowl in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_adversarial_1248,POPE,Is there a knife in the image?,no,yes,0.874,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000383185.jpg
+pope_adversarial_1249,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_adversarial_1251,POPE,Is there a bowl in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000388983.jpg
+pope_adversarial_1271,POPE,Is there a bicycle in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000244455.jpg
+pope_adversarial_1287,POPE,Is there a person in the image?,yes,no,0.991,,object_hallucination,data/POPE/images/COCO_val2014_000000201148.jpg
+pope_adversarial_1292,POPE,Is there a person in the image?,no,yes,0.888,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307166.jpg
+pope_adversarial_1295,POPE,Is there an oven in the image?,yes,no,0.909,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307166.jpg
+pope_adversarial_1301,POPE,Is there a bottle in the image?,yes,no,0.899,,object_hallucination,data/POPE/images/COCO_val2014_000000313034.jpg
+pope_adversarial_1313,POPE,Is there a dining table in the image?,yes,no,0.918,,object_hallucination,data/POPE/images/COCO_val2014_000000333237.jpg
+pope_adversarial_1327,POPE,Is there a tv in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000287035.jpg
+pope_adversarial_1333,POPE,Is there a person in the image?,yes,no,0.891,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_adversarial_1335,POPE,Is there a cell phone in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000299074.jpg
+pope_adversarial_1344,POPE,Is there a backpack in the image?,no,yes,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000120648.jpg
+pope_adversarial_1357,POPE,Is there a person in the image?,yes,no,0.910,1.0,object_hallucination,data/POPE/images/COCO_val2014_000000505542.jpg
+pope_adversarial_1367,POPE,Is there a cow in the image?,yes,no,0.949,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000115636.jpg
+pope_adversarial_1381,POPE,Is there a traffic light in the image?,yes,no,0.877,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000534516.jpg
+pope_adversarial_1388,POPE,Is there a cup in the image?,no,yes,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000123017.jpg
+pope_adversarial_1400,POPE,Is there a handbag in the image?,no,yes,0.835,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000463522.jpg
+pope_adversarial_1413,POPE,Is there a boat in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000200583.jpg
+pope_adversarial_1428,POPE,Is there a dining table in the image?,no,yes,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100215.jpg
+pope_adversarial_1433,POPE,Is there a person in the image?,yes,no,0.977,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000017379.jpg
+pope_adversarial_1437,POPE,Is there a scissors in the image?,yes,no,0.970,,object_hallucination,data/POPE/images/COCO_val2014_000000511622.jpg
+pope_adversarial_1441,POPE,Is there a tv in the image?,yes,no,0.934,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_adversarial_1445,POPE,Is there a dining table in the image?,yes,no,0.937,,object_hallucination,data/POPE/images/COCO_val2014_000000407386.jpg
+pope_adversarial_1452,POPE,Is there a dining table in the image?,no,yes,0.991,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000039516.jpg
+pope_adversarial_1464,POPE,Is there a truck in the image?,no,yes,0.849,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000115626.jpg
+pope_adversarial_1467,POPE,Is there a toothbrush in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000391735.jpg
+pope_adversarial_1477,POPE,Is there a snowboard in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000463542.jpg
+pope_adversarial_1478,POPE,Is there a backpack in the image?,no,yes,0.882,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000463542.jpg
+pope_adversarial_1486,POPE,Is there a truck in the image?,no,yes,0.849,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377352.jpg
+pope_adversarial_1488,POPE,Is there a bus in the image?,no,yes,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000377352.jpg
+pope_adversarial_1490,POPE,Is there a skis in the image?,no,yes,0.854,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000302405.jpg
+pope_adversarial_1501,POPE,Is there a spoon in the image?,yes,no,0.922,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384040.jpg
+pope_adversarial_1538,POPE,Is there a cup in the image?,no,yes,0.989,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_adversarial_1541,POPE,Is there a dining table in the image?,yes,no,0.895,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_adversarial_1542,POPE,Is there a chair in the image?,no,yes,0.923,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000318209.jpg
+pope_adversarial_1543,POPE,Is there a bird in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000016775.jpg
+pope_adversarial_1549,POPE,Is there a truck in the image?,yes,no,0.804,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_adversarial_1551,POPE,Is there a person in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_adversarial_1553,POPE,Is there a sports ball in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000015338.jpg
+pope_adversarial_1567,POPE,Is there a person in the image?,yes,no,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000550691.jpg
+pope_adversarial_1591,POPE,Is there a person in the image?,yes,no,0.985,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_adversarial_1593,POPE,Is there a car in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000485485.jpg
+pope_adversarial_1607,POPE,Is there a dining table in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000472143.jpg
+pope_adversarial_1615,POPE,Is there a snowboard in the image?,yes,no,0.947,,object_hallucination,data/POPE/images/COCO_val2014_000000214244.jpg
+pope_adversarial_1626,POPE,Is there a backpack in the image?,no,yes,0.987,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000397665.jpg
+pope_adversarial_1627,POPE,Is there a bowl in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_adversarial_1629,POPE,Is there a sandwich in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_adversarial_1631,POPE,Is there a hot dog in the image?,yes,no,0.977,,object_hallucination,data/POPE/images/COCO_val2014_000000183965.jpg
+pope_adversarial_1642,POPE,Is there a car in the image?,no,yes,0.998,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000259755.jpg
+pope_adversarial_1643,POPE,Is there a sports ball in the image?,yes,no,0.816,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000259755.jpg
+pope_adversarial_1647,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000281028.jpg
+pope_adversarial_1650,POPE,Is there a truck in the image?,no,yes,0.959,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000281028.jpg
+pope_adversarial_1657,POPE,Is there a bottle in the image?,yes,no,0.946,,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_adversarial_1659,POPE,Is there a cake in the image?,yes,no,0.855,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_adversarial_1661,POPE,Is there a cup in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000442809.jpg
+pope_adversarial_1673,POPE,Is there a dining table in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000097994.jpg
+pope_adversarial_1677,POPE,Is there a clock in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000246999.jpg
+pope_adversarial_1680,POPE,Is there a book in the image?,no,yes,0.840,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000246999.jpg
+pope_adversarial_1699,POPE,Is there a sandwich in the image?,yes,no,0.806,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000108189.jpg
+pope_adversarial_1700,POPE,Is there a bowl in the image?,no,yes,0.985,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000108189.jpg
+pope_adversarial_1709,POPE,Is there a couch in the image?,yes,no,0.919,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000301575.jpg
+pope_adversarial_1719,POPE,Is there a clock in the image?,yes,no,0.956,,object_hallucination,data/POPE/images/COCO_val2014_000000354976.jpg
+pope_adversarial_1722,POPE,Is there a keyboard in the image?,no,yes,0.849,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000354976.jpg
+pope_adversarial_1725,POPE,Is there a handbag in the image?,yes,no,0.868,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000473199.jpg
+pope_adversarial_1729,POPE,Is there a backpack in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000311759.jpg
+pope_adversarial_1741,POPE,Is there a car in the image?,yes,no,0.979,,object_hallucination,data/POPE/images/COCO_val2014_000000343401.jpg
+pope_adversarial_1748,POPE,Is there a bowl in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000246199.jpg
+pope_adversarial_1751,POPE,Is there a dining table in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000246199.jpg
+pope_adversarial_1758,POPE,Is there a bear in the image?,no,yes,0.876,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000372009.jpg
+pope_adversarial_1761,POPE,Is there a bowl in the image?,yes,no,0.975,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_adversarial_1763,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000346707.jpg
+pope_adversarial_1766,POPE,Is there a car in the image?,no,yes,0.961,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501898.jpg
+pope_adversarial_1770,POPE,Is there a chair in the image?,no,yes,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501898.jpg
+pope_adversarial_1778,POPE,Is there a car in the image?,no,yes,0.959,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000245448.jpg
+pope_adversarial_1797,POPE,Is there a bottle in the image?,yes,no,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000100238.jpg
+pope_adversarial_1808,POPE,Is there a truck in the image?,no,yes,0.800,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000392364.jpg
+pope_adversarial_1811,POPE,Is there a person in the image?,yes,no,0.859,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000392364.jpg
+pope_adversarial_1819,POPE,Is there a clock in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000436127.jpg
+pope_adversarial_1831,POPE,Is there an oven in the image?,yes,no,0.919,,object_hallucination,data/POPE/images/COCO_val2014_000000349936.jpg
+pope_adversarial_1843,POPE,Is there a backpack in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000474741.jpg
+pope_adversarial_1853,POPE,Is there a laptop in the image?,yes,no,0.989,,object_hallucination,data/POPE/images/COCO_val2014_000000286342.jpg
+pope_adversarial_1855,POPE,Is there a tv in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_adversarial_1859,POPE,Is there a laptop in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000093948.jpg
+pope_adversarial_1877,POPE,Is there a spoon in the image?,yes,no,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000147165.jpg
+pope_adversarial_1888,POPE,Is there a spoon in the image?,no,yes,0.946,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000312406.jpg
+pope_adversarial_1891,POPE,Is there a tv in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_adversarial_1895,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000515820.jpg
+pope_adversarial_1911,POPE,Is there an orange in the image?,yes,no,0.863,,object_hallucination,data/POPE/images/COCO_val2014_000000459680.jpg
+pope_adversarial_1916,POPE,Is there a dining table in the image?,no,yes,0.975,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_adversarial_1918,POPE,Is there a person in the image?,no,yes,0.953,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_adversarial_1919,POPE,Is there a cup in the image?,yes,no,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000196462.jpg
+pope_adversarial_1935,POPE,Is there a bottle in the image?,yes,no,0.990,,object_hallucination,data/POPE/images/COCO_val2014_000000505335.jpg
+pope_adversarial_1942,POPE,Is there a knife in the image?,no,yes,0.843,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000172342.jpg
+pope_adversarial_1947,POPE,Is there a person in the image?,yes,no,0.980,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000384970.jpg
+pope_adversarial_1951,POPE,Is there a wine glass in the image?,yes,no,0.935,,object_hallucination,data/POPE/images/COCO_val2014_000000572260.jpg
+pope_adversarial_1954,POPE,Is there a bear in the image?,no,yes,0.988,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000572260.jpg
+pope_adversarial_1959,POPE,Is there a dining table in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000418471.jpg
+pope_adversarial_1967,POPE,Is there a dining table in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000379404.jpg
+pope_adversarial_1973,POPE,Is there a truck in the image?,yes,no,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000044801.jpg
+pope_adversarial_2001,POPE,Is there a person in the image?,yes,no,0.992,,object_hallucination,data/POPE/images/COCO_val2014_000000308907.jpg
+pope_adversarial_2007,POPE,Is there a truck in the image?,yes,no,0.836,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000263594.jpg
+pope_adversarial_2016,POPE,Is there a chair in the image?,no,yes,0.894,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501294.jpg
+pope_adversarial_2023,POPE,Is there a truck in the image?,yes,no,0.960,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_adversarial_2027,POPE,Is there a car in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000091954.jpg
+pope_adversarial_2031,POPE,Is there a person in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000454607.jpg
+pope_adversarial_2053,POPE,Is there an oven in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000167724.jpg
+pope_adversarial_2054,POPE,Is there a bowl in the image?,no,yes,0.854,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000167724.jpg
+pope_adversarial_2065,POPE,Is there a person in the image?,yes,no,0.951,,object_hallucination,data/POPE/images/COCO_val2014_000000076416.jpg
+pope_adversarial_2076,POPE,Is there a bicycle in the image?,no,yes,0.831,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000541783.jpg
+pope_adversarial_2079,POPE,Is there a broccoli in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000445200.jpg
+pope_adversarial_2087,POPE,Is there a dining table in the image?,yes,no,0.939,,object_hallucination,data/POPE/images/COCO_val2014_000000433574.jpg
+pope_adversarial_2095,POPE,Is there a person in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000114941.jpg
+pope_adversarial_2101,POPE,Is there a remote in the image?,yes,no,0.834,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000493753.jpg
+pope_adversarial_2115,POPE,Is there a dining table in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000382617.jpg
+pope_adversarial_2148,POPE,Is there a handbag in the image?,no,yes,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000156704.jpg
+pope_adversarial_2153,POPE,Is there an orange in the image?,yes,no,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000088507.jpg
+pope_adversarial_2155,POPE,Is there a person in the image?,yes,no,0.940,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_adversarial_2159,POPE,Is there an umbrella in the image?,yes,no,0.873,,object_hallucination,data/POPE/images/COCO_val2014_000000279499.jpg
+pope_adversarial_2166,POPE,Is there a chair in the image?,no,yes,0.925,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000155131.jpg
+pope_adversarial_2173,POPE,Is there a chair in the image?,yes,no,0.862,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000501652.jpg
+pope_adversarial_2189,POPE,Is there an oven in the image?,yes,no,0.940,,object_hallucination,data/POPE/images/COCO_val2014_000000332908.jpg
+pope_adversarial_2205,POPE,Is there a sports ball in the image?,yes,no,0.980,,object_hallucination,data/POPE/images/COCO_val2014_000000023084.jpg
+pope_adversarial_2213,POPE,Is there a sink in the image?,yes,no,0.819,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000545353.jpg
+pope_adversarial_2240,POPE,Is there a person in the image?,no,yes,0.950,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000304819.jpg
+pope_adversarial_2245,POPE,Is there a clock in the image?,yes,no,0.948,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_adversarial_2247,POPE,Is there a person in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000240434.jpg
+pope_adversarial_2251,POPE,Is there a backpack in the image?,yes,no,0.838,,object_hallucination,data/POPE/images/COCO_val2014_000000199940.jpg
+pope_adversarial_2254,POPE,Is there a cup in the image?,no,yes,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000199940.jpg
+pope_adversarial_2263,POPE,Is there a giraffe in the image?,yes,no,0.962,,object_hallucination,data/POPE/images/COCO_val2014_000000235541.jpg
+pope_adversarial_2269,POPE,Is there a tv in the image?,yes,no,0.995,,object_hallucination,data/POPE/images/COCO_val2014_000000068418.jpg
+pope_adversarial_2308,POPE,Is there a bicycle in the image?,no,yes,0.979,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000579277.jpg
+pope_adversarial_2309,POPE,Is there a carrot in the image?,yes,no,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000579277.jpg
+pope_adversarial_2310,POPE,Is there a broccoli in the image?,no,yes,0.905,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000579277.jpg
+pope_adversarial_2313,POPE,Is there a bowl in the image?,yes,no,0.794,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000042685.jpg
+pope_adversarial_2324,POPE,Is there a potted plant in the image?,no,yes,0.988,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000243158.jpg
+pope_adversarial_2336,POPE,Is there a bus in the image?,no,yes,0.835,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000405762.jpg
+pope_adversarial_2375,POPE,Is there a sports ball in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000325347.jpg
+pope_adversarial_2377,POPE,Is there a traffic light in the image?,yes,no,0.810,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_adversarial_2381,POPE,Is there a truck in the image?,yes,no,0.987,,object_hallucination,data/POPE/images/COCO_val2014_000000256906.jpg
+pope_adversarial_2387,POPE,Is there a suitcase in the image?,yes,no,0.969,,object_hallucination,data/POPE/images/COCO_val2014_000000061507.jpg
+pope_adversarial_2388,POPE,Is there a handbag in the image?,no,yes,0.835,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000061507.jpg
+pope_adversarial_2394,POPE,Is there a bottle in the image?,no,yes,0.862,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000084410.jpg
+pope_adversarial_2410,POPE,Is there a dining table in the image?,no,yes,0.860,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000307262.jpg
+pope_adversarial_2411,POPE,Is there a bottle in the image?,yes,no,0.903,,object_hallucination,data/POPE/images/COCO_val2014_000000307262.jpg
+pope_adversarial_2443,POPE,Is there a person in the image?,yes,no,0.997,,object_hallucination,data/POPE/images/COCO_val2014_000000238029.jpg
+pope_adversarial_2463,POPE,Is there a bowl in the image?,yes,no,0.905,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_adversarial_2465,POPE,Is there a bottle in the image?,yes,no,0.857,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000447787.jpg
+pope_adversarial_2473,POPE,Is there a chair in the image?,yes,no,0.950,,object_hallucination,data/POPE/images/COCO_val2014_000000388237.jpg
+pope_adversarial_2481,POPE,Is there a cup in the image?,yes,no,0.968,,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_adversarial_2482,POPE,Is there a dining table in the image?,no,yes,0.847,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_adversarial_2484,POPE,Is there a vase in the image?,no,yes,0.804,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000038645.jpg
+pope_adversarial_2489,POPE,Is there a motorcycle in the image?,yes,no,0.957,,object_hallucination,data/POPE/images/COCO_val2014_000000071738.jpg
+pope_adversarial_2497,POPE,Is there a tv in the image?,yes,no,0.932,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000378751.jpg
+pope_adversarial_2507,POPE,Is there a bicycle in the image?,yes,no,0.953,,object_hallucination,data/POPE/images/COCO_val2014_000000073182.jpg
+pope_adversarial_2511,POPE,Is there a car in the image?,yes,no,0.928,,object_hallucination,data/POPE/images/COCO_val2014_000000246928.jpg
+pope_adversarial_2515,POPE,Is there a truck in the image?,yes,no,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_adversarial_2519,POPE,Is there a car in the image?,yes,no,0.952,,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_adversarial_2520,POPE,Is there a bicycle in the image?,no,yes,0.961,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000528136.jpg
+pope_adversarial_2524,POPE,Is there a knife in the image?,no,yes,0.916,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000209290.jpg
+pope_adversarial_2571,POPE,Is there a bench in the image?,yes,no,0.971,,object_hallucination,data/POPE/images/COCO_val2014_000000052689.jpg
+pope_adversarial_2574,POPE,Is there a snowboard in the image?,no,yes,0.905,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000052689.jpg
+pope_adversarial_2589,POPE,Is there a sports ball in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000142056.jpg
+pope_adversarial_2598,POPE,Is there a chair in the image?,no,yes,0.986,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000299986.jpg
+pope_adversarial_2600,POPE,Is there a potted plant in the image?,no,yes,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000521643.jpg
+pope_adversarial_2619,POPE,Is there a suitcase in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000222118.jpg
+pope_adversarial_2620,POPE,Is there a backpack in the image?,no,yes,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000222118.jpg
+pope_adversarial_2623,POPE,Is there a book in the image?,yes,no,0.978,,object_hallucination,data/POPE/images/COCO_val2014_000000514292.jpg
+pope_adversarial_2630,POPE,Is there a chair in the image?,no,yes,0.823,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000117527.jpg
+pope_adversarial_2661,POPE,Is there a person in the image?,yes,no,0.996,,object_hallucination,data/POPE/images/COCO_val2014_000000405205.jpg
+pope_adversarial_2670,POPE,Is there a handbag in the image?,no,yes,0.874,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000123570.jpg
+pope_adversarial_2673,POPE,Is there a sports ball in the image?,yes,no,0.973,,object_hallucination,data/POPE/images/COCO_val2014_000000365317.jpg
+pope_adversarial_2679,POPE,Is there a toilet in the image?,yes,no,0.871,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000224155.jpg
+pope_adversarial_2680,POPE,Is there a sink in the image?,no,yes,0.990,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000224155.jpg
+pope_adversarial_2685,POPE,Is there an orange in the image?,yes,no,0.945,,object_hallucination,data/POPE/images/COCO_val2014_000000191964.jpg
+pope_adversarial_2691,POPE,Is there a bowl in the image?,yes,no,0.972,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_adversarial_2693,POPE,Is there an orange in the image?,yes,no,0.942,,object_hallucination,data/POPE/images/COCO_val2014_000000265472.jpg
+pope_adversarial_2703,POPE,Is there a motorcycle in the image?,yes,no,0.994,,object_hallucination,data/POPE/images/COCO_val2014_000000163814.jpg
+pope_adversarial_2707,POPE,Is there a truck in the image?,yes,no,0.838,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000505933.jpg
+pope_adversarial_2713,POPE,Is there a traffic light in the image?,yes,no,0.931,,object_hallucination,data/POPE/images/COCO_val2014_000000318550.jpg
+pope_adversarial_2721,POPE,Is there a person in the image?,yes,no,0.999,,object_hallucination,data/POPE/images/COCO_val2014_000000367528.jpg
+pope_adversarial_2729,POPE,Is there a boat in the image?,yes,no,0.998,,object_hallucination,data/POPE/images/COCO_val2014_000000252911.jpg
+pope_adversarial_2744,POPE,Is there a couch in the image?,no,yes,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233426.jpg
+pope_adversarial_2747,POPE,Is there a dining table in the image?,yes,no,0.833,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000233426.jpg
+pope_adversarial_2754,POPE,Is there a backpack in the image?,no,yes,0.928,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000372817.jpg
+pope_adversarial_2769,POPE,Is there a cow in the image?,yes,no,0.873,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000092624.jpg
+pope_adversarial_2785,POPE,Is there a spoon in the image?,yes,no,0.920,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000465346.jpg
+pope_adversarial_2786,POPE,Is there a cup in the image?,no,yes,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000465346.jpg
+pope_adversarial_2795,POPE,Is there a horse in the image?,yes,no,0.949,,object_hallucination,data/POPE/images/COCO_val2014_000000514248.jpg
+pope_adversarial_2796,POPE,Is there a dog in the image?,no,yes,0.833,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000514248.jpg
+pope_adversarial_2799,POPE,Is there a chair in the image?,yes,no,0.983,,object_hallucination,data/POPE/images/COCO_val2014_000000355776.jpg
+pope_adversarial_2802,POPE,Is there a bottle in the image?,no,yes,0.850,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000355776.jpg
+pope_adversarial_2803,POPE,Is there a chair in the image?,yes,no,0.896,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_adversarial_2808,POPE,Is there a cup in the image?,no,yes,0.802,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000575355.jpg
+pope_adversarial_2810,POPE,Is there a dining table in the image?,no,yes,0.849,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000396068.jpg
+pope_adversarial_2843,POPE,Is there a sports ball in the image?,yes,no,0.893,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000555538.jpg
+pope_adversarial_2852,POPE,Is there a car in the image?,no,yes,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000125572.jpg
+pope_adversarial_2872,POPE,Is there a bowl in the image?,no,yes,0.908,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000434179.jpg
+pope_adversarial_2881,POPE,Is there a car in the image?,yes,no,0.986,,object_hallucination,data/POPE/images/COCO_val2014_000000069863.jpg
+pope_adversarial_2899,POPE,Is there a chair in the image?,yes,no,0.955,,object_hallucination,data/POPE/images/COCO_val2014_000000554002.jpg
+pope_adversarial_2905,POPE,Is there a tv in the image?,yes,no,0.908,,object_hallucination,data/POPE/images/COCO_val2014_000000141278.jpg
+pope_adversarial_2914,POPE,Is there a chair in the image?,no,yes,0.886,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000190788.jpg
+pope_adversarial_2920,POPE,Is there a couch in the image?,no,yes,0.885,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000534942.jpg
+pope_adversarial_2930,POPE,Is there a car in the image?,no,yes,0.996,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000533201.jpg
+pope_adversarial_2941,POPE,Is there a baseball glove in the image?,yes,no,0.821,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_adversarial_2945,POPE,Is there a sports ball in the image?,yes,no,0.814,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000468997.jpg
+pope_adversarial_2955,POPE,Is there a sports ball in the image?,yes,no,0.967,,object_hallucination,data/POPE/images/COCO_val2014_000000323752.jpg
+pope_adversarial_2959,POPE,Is there a spoon in the image?,yes,no,0.796,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000003845.jpg
+pope_adversarial_2970,POPE,Is there a chair in the image?,no,yes,0.827,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000122962.jpg
+pope_adversarial_2976,POPE,Is there a bench in the image?,no,yes,0.878,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000015738.jpg
+pope_adversarial_2988,POPE,Is there a backpack in the image?,no,yes,0.864,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000121959.jpg
+pope_adversarial_2993,POPE,Is there a spoon in the image?,yes,no,0.870,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000361430.jpg
+pope_adversarial_2997,POPE,Is there a bowl in the image?,yes,no,0.829,0.9,object_hallucination,data/POPE/images/COCO_val2014_000000277289.jpg

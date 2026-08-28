@@ -1,0 +1,6 @@
+{
+  "dataset": "vizwiz",
+  "model": "qwen_vl",
+  "intervention": "alignment_ruined",
+  "n_samples": 4319
+}

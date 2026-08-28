@@ -1,0 +1,29 @@
+{
+  "dataset": "hallusionbench",
+  "model": "gemma_vl",
+  "n_samples": 951,
+  "accuracy": 0.6824395373291272,
+  "per_family_accuracy": {
+    "attribute": {
+      "accuracy": 0.7527777777777778,
+      "correct": 271,
+      "count": 360
+    },
+    "object_hallucination": {
+      "accuracy": 0.6395939086294417,
+      "correct": 378,
+      "count": 591
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.6834910620399579,
+    "precision": 0.6655629139072847,
+    "recall": 0.5012468827930174,
+    "f1": 0.5718349928876244,
+    "tp": 201,
+    "fp": 101,
+    "fn": 200,
+    "tn": 449,
+    "total": 951
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dataset": "pope",
+  "model": "llava_mistral",
+  "intervention": "language_ruined",
+  "n_samples": 9000
+}

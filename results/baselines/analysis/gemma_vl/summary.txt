@@ -1,0 +1,4 @@
+hallusionbench: acc=68.2%, ECE=0.2854, Q2_dangerous=302
+pope: acc=86.9%, ECE=0.1177, Q2_dangerous=1181
+vizwiz: acc=54.0%, ECE=0.3457, Q2_dangerous=1952
+vsr: acc=71.8%, ECE=0.2534, Q2_dangerous=96

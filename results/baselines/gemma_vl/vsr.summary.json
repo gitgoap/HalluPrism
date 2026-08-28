@@ -1,0 +1,24 @@
+{
+  "dataset": "vsr",
+  "model": "gemma_vl",
+  "n_samples": 340,
+  "accuracy": 0.7176470588235294,
+  "per_family_accuracy": {
+    "spatial": {
+      "accuracy": 0.7176470588235294,
+      "correct": 244,
+      "count": 340
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.7176470588235294,
+    "precision": 0.7933884297520661,
+    "recall": 0.5748502994011976,
+    "f1": 0.6666666666666666,
+    "tp": 96,
+    "fp": 25,
+    "fn": 71,
+    "tn": 148,
+    "total": 340
+  }
+}

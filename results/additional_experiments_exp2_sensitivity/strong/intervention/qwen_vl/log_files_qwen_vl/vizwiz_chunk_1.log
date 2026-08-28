@@ -1,0 +1,20 @@
+2026-07-10 21:15:41 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-07-10 21:15:41 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-07-10 21:15:41 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-07-10 21:15:44 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-07-10 21:15:44 | INFO     | __main__ | === Matched Intervention Run: model=qwen_vl ===
+2026-07-10 21:15:44 | INFO     | __main__ | Loading decomposition results from results/rebuttal_exp2_sensitivity/strong/decomposition/qwen_vl/vizwiz_chunk_1.jsonl
+2026-07-10 21:15:44 | INFO     | __main__ | Loaded 1080 decomposition results
+2026-07-10 21:15:44 | INFO     | __main__ | Loading model: qwen_vl
+2026-07-10 21:15:44 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-07-10 21:15:44 | INFO     | src.models.qwen_vl | Pinning model to cuda:1
+2026-07-10 21:15:50 | INFO     | src.models.qwen_vl | Qwen3-VL loaded. model=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1, dtype=bfloat16
+2026-07-10 21:15:50 | INFO     | __main__ | Model loaded.
+2026-07-10 21:15:50 | INFO     | experiment.intervention_qwen_vl | ExperimentLogger initialized: results/rebuttal_exp2_sensitivity/strong/intervention/qwen_vl/vizwiz_chunk_1.jsonl (experiment='intervention_qwen_vl')
+2026-07-10 21:15:50 | INFO     | experiment.intervention_qwen_vl | Experiment summary: {
+  "model": "qwen_vl",
+  "decomp_source": "results/rebuttal_exp2_sensitivity/strong/decomposition/qwen_vl/vizwiz_chunk_1.jsonl",
+  "n_samples": 1080
+}
+2026-07-10 21:15:50 | INFO     | experiment.intervention_qwen_vl | Summary saved to results/rebuttal_exp2_sensitivity/strong/intervention/qwen_vl/vizwiz_chunk_1.summary.json
+2026-07-10 21:15:50 | INFO     | __main__ | Done. Results saved to: results/rebuttal_exp2_sensitivity/strong/intervention/qwen_vl/vizwiz_chunk_1.jsonl

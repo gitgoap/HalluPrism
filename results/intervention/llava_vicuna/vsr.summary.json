@@ -1,0 +1,5 @@
+{
+  "model": "llava_vicuna",
+  "decomp_source": "results/decomposition/llava_vicuna/vsr.jsonl",
+  "n_samples": 340
+}

@@ -1,0 +1,5 @@
+{
+  "model": "gemma_vl",
+  "decomp_source": "results/decomposition/gemma_vl/pope.jsonl",
+  "n_samples": 9000
+}

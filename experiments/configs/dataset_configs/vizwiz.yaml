@@ -1,0 +1,24 @@
+# VizWiz-VQA dataset config
+# Extends / overrides base_config.yaml
+
+dataset:
+  name: "VizWiz"
+  data_root: "data/VizWiz/"             # update to your local path
+  split: "val"
+  max_samples: null
+
+task:
+  type: "answerability"
+  answer_format: "If the question cannot be answered from the image, say 'unanswerable'. Otherwise, give a short answer."
+
+abstention:
+  # For VizWiz, abstention threshold is calibrated on the val answerable/unanswerable split
+  # Do NOT tune on test; use only val for threshold selection.
+  calibrate_on_val: true
+  # Whether to evaluate both answer accuracy AND answerability prediction
+  evaluate_answerability: true
+
+uncertainty:
+  # VizWiz focuses on visual and answerability
+  primary_components: ["visual"]
+  secondary_components: ["language_prior", "alignment"]

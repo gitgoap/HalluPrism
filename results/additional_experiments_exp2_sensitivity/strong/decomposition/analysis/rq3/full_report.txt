@@ -1,0 +1,119 @@
+
+###########################################################################
+  MODEL: llava_mistral
+###########################################################################
+  Loaded 5270 samples with V/L/A scores
+
+  ===========================================================================
+  RQ3 FAILURE-FAMILY PREDICTION — llava_mistral
+  ===========================================================================
+
+  Samples: 5270
+  Classes: ['answerability', 'attribute', 'none', 'object_hallucination']
+  Distribution: {np.str_('answerability'): 1385, np.str_('attribute'): 360, np.str_('none'): 2934, np.str_('object_hallucination'): 591}
+
+  AUROC Comparison (weighted, 3 classifiers):
+  Classifier                Scalar Only          V+L+A   V+L+A+Scalar
+  ---------------------- -------------- -------------- --------------
+  LogisticRegression      0.616+/-0.016  0.767+/-0.009  0.769+/-0.011
+  XGBoost                 0.658+/-0.012  0.874+/-0.013  0.882+/-0.013
+  LightGBM                0.662+/-0.015  0.879+/-0.012  0.889+/-0.012
+
+  Key Question: Does V+L+A outperform Scalar Only across ALL classifiers?
+    LogisticRegression    : V+L+A = 0.767, Scalar = 0.616, delta = +0.151 -> YES
+    XGBoost               : V+L+A = 0.874, Scalar = 0.658, delta = +0.216 -> YES
+    LightGBM              : V+L+A = 0.879, Scalar = 0.662, delta = +0.217 -> YES
+
+  Verdict: Source-aware > Scalar across all classifiers: CONFIRMED
+
+  Feature Importance (from tree-based classifiers):
+    XGBoost:
+      A_score         0.474 ██████████████████
+      V_score         0.211 ████████
+      Scalar_conf     0.159 ██████
+      LP_score        0.155 ██████
+    LightGBM:
+      A_score         0.327 █████████████
+      V_score         0.308 ████████████
+      Scalar_conf     0.283 ███████████
+      LP_score        0.082 ███
+
+###########################################################################
+  MODEL: qwen_vl
+###########################################################################
+  Loaded 5270 samples with V/L/A scores
+
+  ===========================================================================
+  RQ3 FAILURE-FAMILY PREDICTION — qwen_vl
+  ===========================================================================
+
+  Samples: 5270
+  Classes: ['answerability', 'attribute', 'none', 'object_hallucination']
+  Distribution: {np.str_('answerability'): 1385, np.str_('attribute'): 360, np.str_('none'): 2934, np.str_('object_hallucination'): 591}
+
+  AUROC Comparison (weighted, 3 classifiers):
+  Classifier                Scalar Only          V+L+A   V+L+A+Scalar
+  ---------------------- -------------- -------------- --------------
+  LogisticRegression      0.724+/-0.017  0.827+/-0.010  0.828+/-0.010
+  XGBoost                 0.773+/-0.010  0.886+/-0.008  0.895+/-0.006
+  LightGBM                0.778+/-0.011  0.891+/-0.006  0.896+/-0.006
+
+  Key Question: Does V+L+A outperform Scalar Only across ALL classifiers?
+    LogisticRegression    : V+L+A = 0.827, Scalar = 0.724, delta = +0.104 -> YES
+    XGBoost               : V+L+A = 0.886, Scalar = 0.773, delta = +0.113 -> YES
+    LightGBM              : V+L+A = 0.891, Scalar = 0.778, delta = +0.113 -> YES
+
+  Verdict: Source-aware > Scalar across all classifiers: CONFIRMED
+
+  Feature Importance (from tree-based classifiers):
+    XGBoost:
+      LP_score        0.390 ███████████████
+      A_score         0.291 ███████████
+      V_score         0.238 █████████
+      Scalar_conf     0.081 ███
+    LightGBM:
+      A_score         0.345 █████████████
+      V_score         0.273 ██████████
+      Scalar_conf     0.222 ████████
+      LP_score        0.160 ██████
+
+###########################################################################
+  POOLED ANALYSIS (all models combined)
+###########################################################################
+  Loaded 10540 total samples
+
+  ===========================================================================
+  RQ3 FAILURE-FAMILY PREDICTION — ALL MODELS POOLED
+  ===========================================================================
+
+  Samples: 10540
+  Classes: ['answerability', 'attribute', 'none', 'object_hallucination']
+  Distribution: {np.str_('answerability'): 2770, np.str_('attribute'): 720, np.str_('none'): 5868, np.str_('object_hallucination'): 1182}
+
+  AUROC Comparison (weighted, 3 classifiers):
+  Classifier                Scalar Only          V+L+A   V+L+A+Scalar
+  ---------------------- -------------- -------------- --------------
+  LogisticRegression      0.633+/-0.015  0.792+/-0.010  0.792+/-0.011
+  XGBoost                 0.672+/-0.008  0.870+/-0.010  0.883+/-0.008
+  LightGBM                0.673+/-0.008  0.873+/-0.010  0.884+/-0.008
+
+  Key Question: Does V+L+A outperform Scalar Only across ALL classifiers?
+    LogisticRegression    : V+L+A = 0.792, Scalar = 0.633, delta = +0.159 -> YES
+    XGBoost               : V+L+A = 0.870, Scalar = 0.672, delta = +0.199 -> YES
+    LightGBM              : V+L+A = 0.873, Scalar = 0.673, delta = +0.200 -> YES
+
+  Verdict: Source-aware > Scalar across all classifiers: CONFIRMED
+
+  Feature Importance (from tree-based classifiers):
+    XGBoost:
+      A_score         0.325 █████████████
+      LP_score        0.303 ████████████
+      V_score         0.242 █████████
+      Scalar_conf     0.130 █████
+    LightGBM:
+      A_score         0.352 ██████████████
+      Scalar_conf     0.269 ██████████
+      V_score         0.258 ██████████
+      LP_score        0.121 ████
+
+  RQ3 results saved -> results/rebuttal_exp2_sensitivity/strong/decomposition/analysis/rq3/classifier_comparison.csv

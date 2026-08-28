@@ -1,0 +1,94 @@
+2026-04-21 12:06:09 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-21 12:06:09 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-21 12:06:09 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-21 12:06:10 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-21 12:06:10 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=llava_vicuna ===
+2026-04-21 12:06:10 | INFO     | __main__ | Loading dataset...
+2026-04-21 12:06:10 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-21 12:06:10 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-21 12:06:10 | INFO     | __main__ | Loading model: llava_vicuna (path=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1)...
+2026-04-21 12:06:14 | INFO     | src.models.llava_vicuna | Loading LLaVA-1.6-Vicuna model: /home/models/llava-v1.6-vicuna-7b-hf
+2026-04-21 12:06:14 | INFO     | src.models.llava_vicuna | Pinning model to cuda:1
+2026-04-21 12:06:17 | INFO     | src.models.llava_vicuna | LLaVA-1.6-Vicuna loaded. model=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1, dtype=float16
+2026-04-21 12:06:17 | INFO     | __main__ | Model loaded successfully.
+2026-04-21 12:06:17 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | ExperimentLogger initialized: results/smoke_tests/llava_vicuna_hallusionbench.jsonl (experiment='baseline_hallusionbench_llava_vicuna')
+2026-04-21 12:06:17 | INFO     | __main__ | Processing sample 0/5...
+2026-04-21 12:06:23 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "llava_vicuna",
+  "n_samples": 5,
+  "accuracy": 0.6,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "count": 4
+    },
+    "attribute": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "count": 1
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 3,
+    "fp": 2,
+    "fn": 0,
+    "tn": 0,
+    "total": 5
+  }
+}
+2026-04-21 12:06:23 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | Summary saved to results/smoke_tests/llava_vicuna_hallusionbench.summary.json
+2026-04-21 12:06:23 | INFO     | __main__ | Overall accuracy: 0.6000
+2026-04-21 12:06:23 | INFO     | __main__ | Results saved to: results/smoke_tests/llava_vicuna_hallusionbench.jsonl
+2026-04-22 00:12:11 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 00:12:11 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 00:12:11 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 00:12:14 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 00:12:14 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=llava_vicuna ===
+2026-04-22 00:12:14 | INFO     | __main__ | Loading dataset...
+2026-04-22 00:12:14 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-22 00:12:14 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-22 00:12:14 | INFO     | __main__ | Loading model: llava_vicuna (path=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1)...
+2026-04-22 00:12:14 | INFO     | src.models.llava_vicuna | Loading LLaVA-1.6-Vicuna model: /home/models/llava-v1.6-vicuna-7b-hf
+2026-04-22 00:12:14 | INFO     | src.models.llava_vicuna | Pinning model to cuda:1
+2026-04-22 00:12:18 | INFO     | src.models.llava_vicuna | LLaVA-1.6-Vicuna loaded. model=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1, dtype=float16
+2026-04-22 00:12:18 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 00:12:18 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | ExperimentLogger initialized: results/smoke_tests/llava_vicuna_hallusionbench.jsonl (experiment='baseline_hallusionbench_llava_vicuna')
+2026-04-22 00:12:18 | INFO     | __main__ | Processing sample 0/5...
+2026-04-22 00:12:22 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "llava_vicuna",
+  "n_samples": 5,
+  "accuracy": 0.6,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "count": 4
+    },
+    "attribute": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "count": 1
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 3,
+    "fp": 2,
+    "fn": 0,
+    "tn": 0,
+    "total": 5
+  }
+}
+2026-04-22 00:12:22 | INFO     | experiment.baseline_hallusionbench_llava_vicuna | Summary saved to results/smoke_tests/llava_vicuna_hallusionbench.summary.json
+2026-04-22 00:12:22 | INFO     | __main__ | Overall accuracy: 0.6000
+2026-04-22 00:12:22 | INFO     | __main__ | Results saved to: results/smoke_tests/llava_vicuna_hallusionbench.jsonl

@@ -1,0 +1,47 @@
+2026-04-22 00:18:48 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 00:18:48 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 00:18:48 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 00:18:50 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 00:18:50 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=llava_mistral ===
+2026-04-22 00:18:50 | INFO     | __main__ | Loading dataset...
+2026-04-22 00:18:51 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-22 00:18:51 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-22 00:18:51 | INFO     | __main__ | Loading model: llava_mistral (path=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:1)...
+2026-04-22 00:18:51 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-04-22 00:18:51 | INFO     | src.models.llava_mistral | Pinning model to cuda:1
+2026-04-22 00:18:55 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:1, dtype=float16
+2026-04-22 00:18:55 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 00:18:55 | INFO     | experiment.baseline_hallusionbench_llava_mistral | ExperimentLogger initialized: results/smoke_tests/llava_mistral_hallusionbench.jsonl (experiment='baseline_hallusionbench_llava_mistral')
+2026-04-22 00:18:55 | INFO     | __main__ | Processing sample 0/5...
+2026-04-22 00:19:01 | INFO     | experiment.baseline_hallusionbench_llava_mistral | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "llava_mistral",
+  "n_samples": 5,
+  "accuracy": 0.8,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "count": 4
+    },
+    "attribute": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "count": 1
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.8,
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "tp": 3,
+    "fp": 1,
+    "fn": 0,
+    "tn": 1,
+    "total": 5
+  }
+}
+2026-04-22 00:19:01 | INFO     | experiment.baseline_hallusionbench_llava_mistral | Summary saved to results/smoke_tests/llava_mistral_hallusionbench.summary.json
+2026-04-22 00:19:01 | INFO     | __main__ | Overall accuracy: 0.8000
+2026-04-22 00:19:01 | INFO     | __main__ | Results saved to: results/smoke_tests/llava_mistral_hallusionbench.jsonl

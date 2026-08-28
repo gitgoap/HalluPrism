@@ -1,0 +1,5 @@
+{
+  "model": "llava_vicuna",
+  "decomp_source": "results/decomposition/llava_vicuna/hallusionbench.jsonl",
+  "n_samples": 951
+}

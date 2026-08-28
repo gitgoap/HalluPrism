@@ -1,0 +1,102 @@
+sample_id,dataset,question,gold_answer,model_prediction,scalar_confidence,self_reported_confidence,failure_family,image_path
+vsr_dev_000008,VSR,The motorcycle is ahead of the train.,true,false,0.966,1.0,spatial,data/VSR/train2017/000000052983.jpg
+vsr_dev_000009,VSR,The bench is over the dog.,true,false,0.883,0.9,spatial,data/VSR/train2017/000000463593.jpg
+vsr_dev_000010,VSR,The train is perpendicular to the motorcycle.,true,false,0.904,0.9,spatial,data/VSR/train2017/000000338407.jpg
+vsr_dev_000014,VSR,The refrigerator is at the left side of the dog.,false,true,0.804,0.9,spatial,data/VSR/train2017/000000114504.jpg
+vsr_dev_000016,VSR,The dog is on the motorcycle.,false,true,0.877,0.9,spatial,data/VSR/train2017/000000054744.jpg
+vsr_dev_000017,VSR,The bench is touching the dog.,true,false,0.845,0.9,spatial,data/VSR/train2017/000000565951.jpg
+vsr_dev_000018,VSR,The bench is in front of the train.,true,false,0.844,0.9,spatial,data/VSR/train2017/000000473642.jpg
+vsr_dev_000025,VSR,The dog is in front of the chair.,false,true,0.827,0.9,spatial,data/VSR/train2017/000000458092.jpg
+vsr_dev_000026,VSR,The laptop is on top of the handbag.,true,false,0.940,0.9,spatial,data/VSR/train2017/000000293837.jpg
+vsr_dev_000028,VSR,The laptop is in front of the dog.,false,true,0.925,0.9,spatial,data/VSR/train2017/000000069745.jpg
+vsr_dev_000030,VSR,The dog is at the left side of the motorcycle.,false,true,0.921,0.9,spatial,data/VSR/train2017/000000253260.jpg
+vsr_dev_000031,VSR,The bench is under the dog.,true,false,0.806,1.0,spatial,data/VSR/train2017/000000496606.jpg
+vsr_dev_000033,VSR,The dog is under the chair.,true,false,0.808,0.9,spatial,data/VSR/train2017/000000313520.jpg
+vsr_dev_000035,VSR,The motorcycle is ahead of the train.,true,false,0.957,1.0,spatial,data/VSR/train2017/000000450182.jpg
+vsr_dev_000036,VSR,The laptop is at the left side of the dog.,false,true,0.818,0.9,spatial,data/VSR/train2017/000000561411.jpg
+vsr_dev_000039,VSR,The train is left of the bench.,false,true,0.898,1.0,spatial,data/VSR/train2017/000000245450.jpg
+vsr_dev_000046,VSR,The refrigerator is behind the dog.,false,true,0.876,1.0,spatial,data/VSR/train2017/000000114504.jpg
+vsr_dev_000049,VSR,The motorcycle is under the dog.,true,false,0.825,1.0,spatial,data/VSR/train2017/000000211449.jpg
+vsr_dev_000057,VSR,The chair is behind the dog.,false,true,0.833,1.0,spatial,data/VSR/train2017/000000386715.jpg
+vsr_dev_000059,VSR,The bench is touching the laptop.,true,false,0.794,0.9,spatial,data/VSR/train2017/000000257629.jpg
+vsr_dev_000060,VSR,The train is perpendicular to the bench.,true,false,0.848,0.9,spatial,data/VSR/train2017/000000570588.jpg
+vsr_dev_000065,VSR,The chair is under the dog.,false,true,0.810,0.9,spatial,data/VSR/train2017/000000395402.jpg
+vsr_dev_000072,VSR,The dog is in front of the motorcycle.,false,true,0.862,1.0,spatial,data/VSR/train2017/000000253260.jpg
+vsr_dev_000081,VSR,The dog is in front of the motorcycle.,false,true,0.833,1.0,spatial,data/VSR/train2017/000000211449.jpg
+vsr_dev_000082,VSR,The laptop is in front of the dog.,false,true,0.887,0.9,spatial,data/VSR/train2017/000000464871.jpg
+vsr_dev_000084,VSR,The laptop is at the left side of the chair.,true,false,0.834,0.9,spatial,data/VSR/train2017/000000322321.jpg
+vsr_dev_000085,VSR,The bench is surrounding the horse.,true,false,0.857,0.9,spatial,data/VSR/train2017/000000164698.jpg
+vsr_dev_000092,VSR,The dog is facing away from the laptop.,true,false,0.937,0.9,spatial,data/VSR/train2017/000000350245.jpg
+vsr_dev_000093,VSR,The dog is at the right side of the refrigerator.,true,false,0.874,1.0,spatial,data/VSR/train2017/000000396890.jpg
+vsr_dev_000097,VSR,The train is on top of the laptop.,true,false,0.961,0.9,spatial,data/VSR/train2017/000000253004.jpg
+vsr_dev_000100,VSR,The refrigerator is facing the bench.,true,false,0.876,0.9,spatial,data/VSR/train2017/000000540460.jpg
+vsr_dev_000108,VSR,The train is perpendicular to the bench.,false,true,0.864,0.9,spatial,data/VSR/train2017/000000119861.jpg
+vsr_dev_000109,VSR,The dog is far away from the horse.,true,false,0.847,1.0,spatial,data/VSR/train2017/000000300322.jpg
+vsr_dev_000110,VSR,The motorcycle is behind the dog.,true,false,0.833,0.9,spatial,data/VSR/train2017/000000430245.jpg
+vsr_dev_000112,VSR,The zebra is behind the horse.,false,true,0.814,1.0,spatial,data/VSR/train2017/000000302924.jpg
+vsr_dev_000116,VSR,The laptop is above the dog.,false,true,0.806,1.0,spatial,data/VSR/train2017/000000481773.jpg
+vsr_dev_000118,VSR,The chair is facing the laptop.,false,true,0.831,0.9,spatial,data/VSR/train2017/000000248643.jpg
+vsr_dev_000120,VSR,The zebra is touching the horse.,true,false,0.891,1.0,spatial,data/VSR/train2017/000000357044.jpg
+vsr_dev_000121,VSR,The laptop is facing the chair.,false,true,0.818,0.9,spatial,data/VSR/val2017/000000239318.jpg
+vsr_dev_000127,VSR,The laptop is above the chair.,true,false,0.903,0.9,spatial,data/VSR/train2017/000000402858.jpg
+vsr_dev_000132,VSR,The dog is facing away from the horse.,true,false,0.898,1.0,spatial,data/VSR/val2017/000000049269.jpg
+vsr_dev_000134,VSR,The surfboard is under the dog.,false,true,0.938,0.9,spatial,data/VSR/train2017/000000496252.jpg
+vsr_dev_000138,VSR,The dog is under the bench.,false,true,0.879,1.0,spatial,data/VSR/train2017/000000575005.jpg
+vsr_dev_000140,VSR,The motorcycle is facing the train.,true,false,0.809,0.9,spatial,data/VSR/train2017/000000187286.jpg
+vsr_dev_000141,VSR,The train contains the laptop.,true,false,0.972,0.9,spatial,data/VSR/train2017/000000456730.jpg
+vsr_dev_000148,VSR,The dog is opposite to the horse.,false,true,0.823,1.0,spatial,data/VSR/train2017/000000112830.jpg
+vsr_dev_000149,VSR,The dog is by the frisbee.,false,true,0.989,1.0,spatial,data/VSR/train2017/000000352205.jpg
+vsr_dev_000151,VSR,The dog is at the right side of the motorcycle.,false,true,0.915,0.9,spatial,data/VSR/train2017/000000102763.jpg
+vsr_dev_000152,VSR,The laptop is under the train.,true,false,0.880,1.0,spatial,data/VSR/train2017/000000253004.jpg
+vsr_dev_000157,VSR,The chair is touching the handbag.,true,false,0.809,0.9,spatial,data/VSR/train2017/000000305224.jpg
+vsr_dev_000158,VSR,The train is near the laptop.,true,false,0.917,0.9,spatial,data/VSR/train2017/000000531049.jpg
+vsr_dev_000162,VSR,The dog is at the right side of the bench.,false,true,0.922,0.9,spatial,data/VSR/train2017/000000391139.jpg
+vsr_dev_000166,VSR,The bench is below the dog.,false,true,0.818,1.0,spatial,data/VSR/train2017/000000124316.jpg
+vsr_dev_000173,VSR,The motorcycle is under the dog.,true,false,0.827,0.9,spatial,data/VSR/train2017/000000251716.jpg
+vsr_dev_000174,VSR,The laptop is facing the chair.,true,false,0.819,0.9,spatial,data/VSR/train2017/000000110123.jpg
+vsr_dev_000177,VSR,The chair is at the right side of the laptop.,false,true,0.899,0.9,spatial,data/VSR/train2017/000000427726.jpg
+vsr_dev_000179,VSR,The bench is at the right side of the refrigerator.,false,true,0.798,0.9,spatial,data/VSR/train2017/000000497591.jpg
+vsr_dev_000187,VSR,The train is behind the motorcycle.,true,false,0.860,0.9,spatial,data/VSR/train2017/000000338407.jpg
+vsr_dev_000190,VSR,The dog is on top of the motorcycle.,false,true,0.871,1.0,spatial,data/VSR/train2017/000000189975.jpg
+vsr_dev_000193,VSR,The skateboard is at the left side of the dog.,false,true,0.859,0.9,spatial,data/VSR/val2017/000000549220.jpg
+vsr_dev_000195,VSR,The dog is in the motorcycle.,false,true,0.811,1.0,spatial,data/VSR/train2017/000000043433.jpg
+vsr_dev_000196,VSR,The bench is part of the train.,true,false,0.834,0.9,spatial,data/VSR/train2017/000000245450.jpg
+vsr_dev_000198,VSR,The refrigerator contains the dog.,true,false,0.993,1.0,spatial,data/VSR/train2017/000000350851.jpg
+vsr_dev_000201,VSR,The chair is over the dog.,true,false,0.868,0.9,spatial,data/VSR/train2017/000000313520.jpg
+vsr_dev_000202,VSR,The bench is above the dog.,true,false,0.835,1.0,spatial,data/VSR/train2017/000000318467.jpg
+vsr_dev_000206,VSR,The motorcycle is in front of the dog.,false,true,0.890,1.0,spatial,data/VSR/train2017/000000054744.jpg
+vsr_dev_000214,VSR,The dog is alongside the horse.,false,true,0.953,1.0,spatial,data/VSR/train2017/000000300322.jpg
+vsr_dev_000217,VSR,The refrigerator is behind the dog.,false,true,0.869,0.9,spatial,data/VSR/train2017/000000333848.jpg
+vsr_dev_000222,VSR,The train is in front of the motorcycle.,true,false,0.859,0.9,spatial,data/VSR/val2017/000000376625.jpg
+vsr_dev_000227,VSR,The dog is at the right side of the horse.,false,true,0.814,0.9,spatial,data/VSR/train2017/000000050772.jpg
+vsr_dev_000233,VSR,The bench is under the dog.,true,false,0.836,1.0,spatial,data/VSR/train2017/000000046345.jpg
+vsr_dev_000234,VSR,The bench is below the laptop.,false,true,0.849,1.0,spatial,data/VSR/train2017/000000479595.jpg
+vsr_dev_000237,VSR,The refrigerator is facing the bench.,false,true,0.820,0.9,spatial,data/VSR/train2017/000000061826.jpg
+vsr_dev_000241,VSR,The train is next to the laptop.,false,true,0.798,0.9,spatial,data/VSR/train2017/000000224670.jpg
+vsr_dev_000243,VSR,The motorcycle is next to the dog.,false,true,0.933,0.9,spatial,data/VSR/train2017/000000017697.jpg
+vsr_dev_000245,VSR,The dog is far from the bench.,true,false,0.823,0.9,spatial,data/VSR/train2017/000000548734.jpg
+vsr_dev_000247,VSR,The train is on the laptop.,true,false,0.983,1.0,spatial,data/VSR/train2017/000000253004.jpg
+vsr_dev_000255,VSR,The laptop is facing the chair.,true,false,0.805,0.9,spatial,data/VSR/train2017/000000066376.jpg
+vsr_dev_000264,VSR,The motorcycle is in front of the dog.,false,true,0.942,1.0,spatial,data/VSR/train2017/000000378163.jpg
+vsr_dev_000270,VSR,The chair is behind the laptop.,false,true,0.821,0.9,spatial,data/VSR/train2017/000000343503.jpg
+vsr_dev_000275,VSR,The chair is under the horse.,true,false,0.844,1.0,spatial,data/VSR/train2017/000000127576.jpg
+vsr_dev_000277,VSR,The dog is facing the wine glass.,false,true,0.797,0.9,spatial,data/VSR/train2017/000000552061.jpg
+vsr_dev_000278,VSR,The laptop is at the edge of the bench.,false,true,0.842,0.9,spatial,data/VSR/train2017/000000147375.jpg
+vsr_dev_000279,VSR,The train is beyond the bench.,false,true,0.912,0.9,spatial,data/VSR/train2017/000000120826.jpg
+vsr_dev_000282,VSR,The train contains the laptop.,true,false,0.943,0.9,spatial,data/VSR/train2017/000000224670.jpg
+vsr_dev_000289,VSR,The laptop is facing the chair.,false,true,0.820,0.9,spatial,data/VSR/train2017/000000020481.jpg
+vsr_dev_000292,VSR,The dog is at the left side of the horse.,false,true,0.839,1.0,spatial,data/VSR/train2017/000000422185.jpg
+vsr_dev_000294,VSR,The motorcycle is behind the dog.,true,false,0.808,1.0,spatial,data/VSR/train2017/000000168317.jpg
+vsr_dev_000300,VSR,The dog is next to the laptop.,false,true,0.957,0.9,spatial,data/VSR/train2017/000000166853.jpg
+vsr_dev_000302,VSR,The refrigerator is at the back of the bench.,true,false,0.800,0.9,spatial,data/VSR/train2017/000000356648.jpg
+vsr_dev_000303,VSR,The dog is above the bench.,true,false,0.881,1.0,spatial,data/VSR/train2017/000000092188.jpg
+vsr_dev_000308,VSR,The train is away from the chair.,false,true,0.848,1.0,spatial,data/VSR/train2017/000000281660.jpg
+vsr_dev_000309,VSR,The train is next to the laptop.,true,false,0.960,0.9,spatial,data/VSR/train2017/000000531049.jpg
+vsr_dev_000314,VSR,The bench is touching the handbag.,true,false,0.885,0.9,spatial,data/VSR/train2017/000000560359.jpg
+vsr_dev_000317,VSR,The chair is at the right side of the dog.,false,true,0.849,0.9,spatial,data/VSR/val2017/000000082807.jpg
+vsr_dev_000319,VSR,The skateboard is in front of the dog.,false,true,0.934,1.0,spatial,data/VSR/train2017/000000518613.jpg
+vsr_dev_000322,VSR,The motorcycle is at the left side of the train.,true,false,0.982,1.0,spatial,data/VSR/train2017/000000281818.jpg
+vsr_dev_000329,VSR,The bench is at the right side of the train.,false,true,0.823,0.9,spatial,data/VSR/train2017/000000239417.jpg
+vsr_dev_000332,VSR,The train contains the chair.,true,false,0.975,1.0,spatial,data/VSR/train2017/000000281660.jpg
+vsr_dev_000338,VSR,The chair is under the dog.,true,false,0.827,1.0,spatial,data/VSR/val2017/000000446522.jpg
+vsr_dev_000339,VSR,The dog is at the right side of the laptop.,false,true,0.862,0.9,spatial,data/VSR/train2017/000000025994.jpg

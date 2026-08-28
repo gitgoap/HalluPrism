@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data — never commit raw datasets
+data/
+
+# Results — large output files
+results/*.jsonl
+results/*.json
+results/*.csv
+results/*.log
+!results/.gitkeep
+
+# Human audit annotations — exclude until ready to share
+human_audit/annotations/
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Secrets / API keys
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp

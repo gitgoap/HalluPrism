@@ -1,0 +1,6 @@
+{
+  "dataset": "pope",
+  "model": "gemma_vl",
+  "n_samples": 9000,
+  "passes_per_sample": 8
+}

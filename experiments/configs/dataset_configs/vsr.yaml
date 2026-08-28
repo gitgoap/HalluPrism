@@ -1,0 +1,24 @@
+# VSR dataset config
+# Extends / overrides base_config.yaml
+
+dataset:
+  name: "VSR"
+  data_root: "data/VSR/"                # update to your local path
+  split: "dev"
+  max_samples: null
+
+task:
+  type: "spatial"
+  answer_format: "Answer with true or false only."
+  # Prompt template for true/false image-caption verification
+  prompt_template: >
+    Look at the image. Is the following statement true or false?
+    Statement: {caption}
+    {answer_format}
+
+uncertainty:
+  # VSR is primary for alignment component
+  primary_components: ["alignment"]
+  secondary_components: ["visual", "language_prior"]
+  # Enable relation-swap perturbations for alignment uncertainty
+  use_relation_swaps: true

@@ -1,0 +1,20 @@
+2026-07-10 22:31:45 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-07-10 22:31:45 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-07-10 22:31:45 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-07-10 22:31:47 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-07-10 22:31:47 | INFO     | __main__ | === Matched Intervention Run: model=llava_mistral ===
+2026-07-10 22:31:47 | INFO     | __main__ | Loading decomposition results from results/rebuttal_exp2_sensitivity/weak/decomposition/llava_mistral/vizwiz_chunk_2.jsonl
+2026-07-10 22:31:47 | INFO     | __main__ | Loaded 1080 decomposition results
+2026-07-10 22:31:47 | INFO     | __main__ | Loading model: llava_mistral
+2026-07-10 22:31:47 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-07-10 22:31:47 | INFO     | src.models.llava_mistral | Pinning model to cuda:2
+2026-07-10 22:31:51 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:2, dtype=float16
+2026-07-10 22:31:51 | INFO     | __main__ | Model loaded.
+2026-07-10 22:31:51 | INFO     | experiment.intervention_llava_mistral | ExperimentLogger initialized: results/rebuttal_exp2_sensitivity/weak/intervention/llava_mistral/vizwiz_chunk_2.jsonl (experiment='intervention_llava_mistral')
+2026-07-10 22:31:51 | INFO     | experiment.intervention_llava_mistral | Experiment summary: {
+  "model": "llava_mistral",
+  "decomp_source": "results/rebuttal_exp2_sensitivity/weak/decomposition/llava_mistral/vizwiz_chunk_2.jsonl",
+  "n_samples": 1080
+}
+2026-07-10 22:31:51 | INFO     | experiment.intervention_llava_mistral | Summary saved to results/rebuttal_exp2_sensitivity/weak/intervention/llava_mistral/vizwiz_chunk_2.summary.json
+2026-07-10 22:31:51 | INFO     | __main__ | Done. Results saved to: results/rebuttal_exp2_sensitivity/weak/intervention/llava_mistral/vizwiz_chunk_2.jsonl

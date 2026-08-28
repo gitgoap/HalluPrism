@@ -1,0 +1,6 @@
+{
+  "dataset": "pope",
+  "model": "gemma_vl",
+  "intervention": "language_ruined",
+  "n_samples": 9000
+}

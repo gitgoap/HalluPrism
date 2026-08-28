@@ -1,0 +1,6 @@
+{
+  "dataset": "hallusionbench",
+  "model": "qwen_vl",
+  "intervention": "language_ruined",
+  "n_samples": 951
+}

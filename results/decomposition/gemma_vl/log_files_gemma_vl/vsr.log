@@ -1,0 +1,31 @@
+2026-04-24 06:17:48 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-24 06:17:48 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-24 06:17:48 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-24 06:17:51 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-24 06:17:51 | INFO     | __main__ | === Decomposition Run: dataset=vsr, model=gemma_vl ===
+2026-04-24 06:17:51 | INFO     | __main__ | Loading dataset...
+2026-04-24 06:17:51 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-24 06:17:51 | INFO     | __main__ | Loaded 340 samples from vsr
+2026-04-24 06:17:51 | INFO     | __main__ | Loading model: gemma_vl...
+2026-04-24 06:17:51 | INFO     | src.models.gemma_vl | Loading Gemma 4 model: /home/models/gemma-4-E4B-it
+2026-04-24 06:17:51 | INFO     | src.models.gemma_vl | Pinning model to cuda:2
+2026-04-24 06:17:58 | INFO     | src.models.gemma_vl | Gemma 4 loaded. model=/home/models/gemma-4-E4B-it, device=cuda:2, dtype=bfloat16
+2026-04-24 06:17:58 | INFO     | __main__ | Model loaded successfully.
+2026-04-24 06:17:58 | INFO     | __main__ | Forward passes per sample: 8
+2026-04-24 06:17:58 | INFO     | __main__ | Estimated total forward passes: 2720
+2026-04-24 06:17:58 | INFO     | experiment.decomp_vsr_gemma_vl | ExperimentLogger initialized: results/decomposition/gemma_vl/vsr.jsonl (experiment='decomp_vsr_gemma_vl')
+2026-04-24 06:17:58 | INFO     | __main__ | Processing sample 0/340...
+2026-04-24 06:20:05 | INFO     | __main__ | Processing sample 50/340...
+2026-04-24 06:22:10 | INFO     | __main__ | Processing sample 100/340...
+2026-04-24 06:24:20 | INFO     | __main__ | Processing sample 150/340...
+2026-04-24 06:26:29 | INFO     | __main__ | Processing sample 200/340...
+2026-04-24 06:28:35 | INFO     | __main__ | Processing sample 250/340...
+2026-04-24 06:30:45 | INFO     | __main__ | Processing sample 300/340...
+2026-04-24 06:32:27 | INFO     | experiment.decomp_vsr_gemma_vl | Experiment summary: {
+  "dataset": "vsr",
+  "model": "gemma_vl",
+  "n_samples": 340,
+  "passes_per_sample": 8
+}
+2026-04-24 06:32:27 | INFO     | experiment.decomp_vsr_gemma_vl | Summary saved to results/decomposition/gemma_vl/vsr.summary.json
+2026-04-24 06:32:27 | INFO     | __main__ | Decomposition complete. Results saved to: results/decomposition/gemma_vl/vsr.jsonl

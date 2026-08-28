@@ -1,0 +1,31 @@
+2026-04-22 11:42:05 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 11:42:05 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 11:42:05 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 11:42:07 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 11:42:07 | INFO     | __main__ | === Decomposition Run: dataset=vsr, model=llava_mistral ===
+2026-04-22 11:42:07 | INFO     | __main__ | Loading dataset...
+2026-04-22 11:42:07 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-22 11:42:07 | INFO     | __main__ | Loaded 340 samples from vsr
+2026-04-22 11:42:07 | INFO     | __main__ | Loading model: llava_mistral...
+2026-04-22 11:42:07 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-04-22 11:42:07 | INFO     | src.models.llava_mistral | Pinning model to cuda:2
+2026-04-22 11:42:12 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:2, dtype=float16
+2026-04-22 11:42:12 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 11:42:12 | INFO     | __main__ | Forward passes per sample: 8
+2026-04-22 11:42:12 | INFO     | __main__ | Estimated total forward passes: 2720
+2026-04-22 11:42:12 | INFO     | experiment.decomp_vsr_llava_mistral | ExperimentLogger initialized: results/decomposition/llava_mistral/vsr.jsonl (experiment='decomp_vsr_llava_mistral')
+2026-04-22 11:42:12 | INFO     | __main__ | Processing sample 0/340...
+2026-04-22 11:45:16 | INFO     | __main__ | Processing sample 50/340...
+2026-04-22 11:48:18 | INFO     | __main__ | Processing sample 100/340...
+2026-04-22 11:51:25 | INFO     | __main__ | Processing sample 150/340...
+2026-04-22 11:54:27 | INFO     | __main__ | Processing sample 200/340...
+2026-04-22 11:57:27 | INFO     | __main__ | Processing sample 250/340...
+2026-04-22 12:00:32 | INFO     | __main__ | Processing sample 300/340...
+2026-04-22 12:02:59 | INFO     | experiment.decomp_vsr_llava_mistral | Experiment summary: {
+  "dataset": "vsr",
+  "model": "llava_mistral",
+  "n_samples": 340,
+  "passes_per_sample": 8
+}
+2026-04-22 12:02:59 | INFO     | experiment.decomp_vsr_llava_mistral | Summary saved to results/decomposition/llava_mistral/vsr.summary.json
+2026-04-22 12:02:59 | INFO     | __main__ | Decomposition complete. Results saved to: results/decomposition/llava_mistral/vsr.jsonl

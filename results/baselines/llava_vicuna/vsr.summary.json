@@ -1,0 +1,24 @@
+{
+  "dataset": "vsr",
+  "model": "llava_vicuna",
+  "n_samples": 340,
+  "accuracy": 0.5147058823529411,
+  "per_family_accuracy": {
+    "spatial": {
+      "accuracy": 0.5147058823529411,
+      "correct": 175,
+      "count": 340
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.5147058823529411,
+    "precision": 0.5030487804878049,
+    "recall": 0.9880239520958084,
+    "f1": 0.6666666666666667,
+    "tp": 165,
+    "fp": 163,
+    "fn": 2,
+    "tn": 10,
+    "total": 340
+  }
+}

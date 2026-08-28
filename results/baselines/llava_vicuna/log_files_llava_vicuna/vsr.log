@@ -1,0 +1,45 @@
+2026-04-22 07:29:53 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 07:29:53 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 07:29:53 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 07:29:56 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 07:29:56 | INFO     | __main__ | === Baseline Run: dataset=vsr, model=llava_vicuna ===
+2026-04-22 07:29:56 | INFO     | __main__ | Loading dataset...
+2026-04-22 07:29:56 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-04-22 07:29:56 | INFO     | __main__ | Loaded 340 samples from vsr
+2026-04-22 07:29:56 | INFO     | __main__ | Loading model: llava_vicuna (path=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1)...
+2026-04-22 07:29:56 | INFO     | src.models.llava_vicuna | Loading LLaVA-1.6-Vicuna model: /home/models/llava-v1.6-vicuna-7b-hf
+2026-04-22 07:29:56 | INFO     | src.models.llava_vicuna | Pinning model to cuda:1
+2026-04-22 07:29:59 | INFO     | src.models.llava_vicuna | LLaVA-1.6-Vicuna loaded. model=/home/models/llava-v1.6-vicuna-7b-hf, device=cuda:1, dtype=float16
+2026-04-22 07:29:59 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 07:30:00 | INFO     | experiment.baseline_vsr_llava_vicuna | ExperimentLogger initialized: results/baselines/llava_vicuna/vsr.jsonl (experiment='baseline_vsr_llava_vicuna')
+2026-04-22 07:30:00 | INFO     | __main__ | Processing sample 0/340...
+2026-04-22 07:31:33 | INFO     | __main__ | Processing sample 100/340...
+2026-04-22 07:33:07 | INFO     | __main__ | Processing sample 200/340...
+2026-04-22 07:34:40 | INFO     | __main__ | Processing sample 300/340...
+2026-04-22 07:35:18 | INFO     | experiment.baseline_vsr_llava_vicuna | Experiment summary: {
+  "dataset": "vsr",
+  "model": "llava_vicuna",
+  "n_samples": 340,
+  "accuracy": 0.5147058823529411,
+  "per_family_accuracy": {
+    "spatial": {
+      "accuracy": 0.5147058823529411,
+      "correct": 175,
+      "count": 340
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.5147058823529411,
+    "precision": 0.5030487804878049,
+    "recall": 0.9880239520958084,
+    "f1": 0.6666666666666667,
+    "tp": 165,
+    "fp": 163,
+    "fn": 2,
+    "tn": 10,
+    "total": 340
+  }
+}
+2026-04-22 07:35:18 | INFO     | experiment.baseline_vsr_llava_vicuna | Summary saved to results/baselines/llava_vicuna/vsr.summary.json
+2026-04-22 07:35:18 | INFO     | __main__ | Overall accuracy: 0.5147
+2026-04-22 07:35:18 | INFO     | __main__ | Results saved to: results/baselines/llava_vicuna/vsr.jsonl

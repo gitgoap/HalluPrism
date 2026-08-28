@@ -1,0 +1,6 @@
+{
+  "dataset": "vizwiz",
+  "model": "llava_vicuna",
+  "n_samples": 4319,
+  "passes_per_sample": 8
+}

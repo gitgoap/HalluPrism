@@ -1,0 +1,5 @@
+{
+  "model": "qwen_vl",
+  "decomp_source": "results/rebuttal_exp2_sensitivity/strong/decomposition/qwen_vl/hallusionbench.jsonl",
+  "n_samples": 951
+}

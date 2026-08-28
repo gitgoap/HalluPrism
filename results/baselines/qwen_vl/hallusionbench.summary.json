@@ -1,0 +1,29 @@
+{
+  "dataset": "hallusionbench",
+  "model": "qwen_vl",
+  "n_samples": 951,
+  "accuracy": 0.7444794952681388,
+  "per_family_accuracy": {
+    "attribute": {
+      "accuracy": 0.8222222222222222,
+      "correct": 296,
+      "count": 360
+    },
+    "object_hallucination": {
+      "accuracy": 0.6971235194585449,
+      "correct": 412,
+      "count": 591
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.7444794952681388,
+    "precision": 0.6994949494949495,
+    "recall": 0.6907730673316709,
+    "f1": 0.6951066499372648,
+    "tp": 277,
+    "fp": 119,
+    "fn": 124,
+    "tn": 431,
+    "total": 951
+  }
+}

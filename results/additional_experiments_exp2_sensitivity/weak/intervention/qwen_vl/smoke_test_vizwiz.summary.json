@@ -1,0 +1,5 @@
+{
+  "model": "qwen_vl",
+  "decomp_source": "results/rebuttal_exp2_sensitivity/weak/decomposition/qwen_vl/smoke_test_vizwiz.jsonl",
+  "n_samples": 5
+}

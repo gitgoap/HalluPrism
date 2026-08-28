@@ -1,0 +1,56 @@
+2026-04-22 09:01:52 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 09:01:52 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 09:01:52 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 09:01:55 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 09:01:55 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=qwen_vl ===
+2026-04-22 09:01:55 | INFO     | __main__ | Loading dataset...
+2026-04-22 09:01:55 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 951 samples (split=all)
+2026-04-22 09:01:55 | INFO     | __main__ | Loaded 951 samples from hallusionbench
+2026-04-22 09:01:55 | INFO     | __main__ | Loading model: qwen_vl (path=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1)...
+2026-04-22 09:01:55 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-04-22 09:01:55 | INFO     | src.models.qwen_vl | Pinning model to cuda:1
+2026-04-22 09:02:00 | INFO     | src.models.qwen_vl | Qwen3-VL loaded. model=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1, dtype=bfloat16
+2026-04-22 09:02:00 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 09:02:00 | INFO     | experiment.baseline_hallusionbench_qwen_vl | ExperimentLogger initialized: results/baselines/qwen_vl/hallusionbench.jsonl (experiment='baseline_hallusionbench_qwen_vl')
+2026-04-22 09:02:00 | INFO     | __main__ | Processing sample 0/951...
+2026-04-22 09:03:42 | INFO     | __main__ | Processing sample 100/951...
+2026-04-22 09:06:42 | INFO     | __main__ | Processing sample 200/951...
+2026-04-22 09:08:28 | INFO     | __main__ | Processing sample 300/951...
+2026-04-22 09:09:42 | INFO     | __main__ | Processing sample 400/951...
+2026-04-22 09:11:08 | INFO     | __main__ | Processing sample 500/951...
+2026-04-22 09:12:19 | INFO     | __main__ | Processing sample 600/951...
+2026-04-22 09:13:22 | INFO     | __main__ | Processing sample 700/951...
+2026-04-22 09:14:21 | INFO     | __main__ | Processing sample 800/951...
+2026-04-22 09:16:21 | INFO     | __main__ | Processing sample 900/951...
+2026-04-22 09:17:52 | INFO     | experiment.baseline_hallusionbench_qwen_vl | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "qwen_vl",
+  "n_samples": 951,
+  "accuracy": 0.7444794952681388,
+  "per_family_accuracy": {
+    "attribute": {
+      "accuracy": 0.8222222222222222,
+      "correct": 296,
+      "count": 360
+    },
+    "object_hallucination": {
+      "accuracy": 0.6971235194585449,
+      "correct": 412,
+      "count": 591
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.7444794952681388,
+    "precision": 0.6994949494949495,
+    "recall": 0.6907730673316709,
+    "f1": 0.6951066499372648,
+    "tp": 277,
+    "fp": 119,
+    "fn": 124,
+    "tn": 431,
+    "total": 951
+  }
+}
+2026-04-22 09:17:52 | INFO     | experiment.baseline_hallusionbench_qwen_vl | Summary saved to results/baselines/qwen_vl/hallusionbench.summary.json
+2026-04-22 09:17:52 | INFO     | __main__ | Overall accuracy: 0.7445
+2026-04-22 09:17:52 | INFO     | __main__ | Results saved to: results/baselines/qwen_vl/hallusionbench.jsonl

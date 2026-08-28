@@ -1,0 +1,22 @@
+# POPE dataset config
+# Extends / overrides base_config.yaml
+
+dataset:
+  name: "POPE"
+  data_root: "data/POPE/"               # update to your local path
+  pope_splits:
+    - random
+    - popular
+    - adversarial
+  max_samples: null                     # null = use all per split
+
+task:
+  type: "yes_no"
+  answer_format: "Answer with yes or no only."
+
+uncertainty:
+  # POPE is primary for language-prior component
+  primary_components: ["language_prior"]
+  secondary_components: ["visual", "alignment"]
+  # Gap between random and adversarial accuracy is the main LP signal
+  compute_split_gap: true

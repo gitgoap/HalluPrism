@@ -1,0 +1,5 @@
+{
+  "model": "llava_vicuna",
+  "decomp_source": "results/decomposition/llava_vicuna/pope.jsonl",
+  "n_samples": 9000
+}

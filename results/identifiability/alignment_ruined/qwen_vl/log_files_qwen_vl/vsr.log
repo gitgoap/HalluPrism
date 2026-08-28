@@ -1,0 +1,27 @@
+2026-05-06 08:18:35 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-05-06 08:18:35 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-05-06 08:18:35 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-05-06 08:18:38 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-05-06 08:18:38 | INFO     | __main__ | === Identifiability Run: dataset=vsr, model=qwen_vl, intervention=alignment_ruined ===
+2026-05-06 08:18:38 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-05-06 08:18:38 | INFO     | __main__ | Loaded 340 samples.
+2026-05-06 08:18:38 | INFO     | src.models.qwen_vl | Loading Qwen3-VL model: /home/models/Qwen3-VL-8B-Instruct
+2026-05-06 08:18:38 | INFO     | src.models.qwen_vl | Pinning model to cuda:1
+2026-05-06 08:18:43 | INFO     | src.models.qwen_vl | Qwen3-VL loaded. model=/home/models/Qwen3-VL-8B-Instruct, device=cuda:1, dtype=bfloat16
+2026-05-06 08:18:43 | INFO     | __main__ | Model loaded.
+2026-05-06 08:18:43 | INFO     | experiment.identifiability_alignment_ruined_vsr_qwen_vl | ExperimentLogger initialized: results/identifiability/alignment_ruined/qwen_vl/vsr.jsonl (experiment='identifiability_alignment_ruined_vsr_qwen_vl')
+2026-05-06 08:18:43 | INFO     | __main__ | Processing sample 0/340...
+2026-05-06 08:20:30 | INFO     | __main__ | Processing sample 50/340...
+2026-05-06 08:22:17 | INFO     | __main__ | Processing sample 100/340...
+2026-05-06 08:24:03 | INFO     | __main__ | Processing sample 150/340...
+2026-05-06 08:25:46 | INFO     | __main__ | Processing sample 200/340...
+2026-05-06 08:27:30 | INFO     | __main__ | Processing sample 250/340...
+2026-05-06 08:29:15 | INFO     | __main__ | Processing sample 300/340...
+2026-05-06 08:30:41 | INFO     | experiment.identifiability_alignment_ruined_vsr_qwen_vl | Experiment summary: {
+  "dataset": "vsr",
+  "model": "qwen_vl",
+  "intervention": "alignment_ruined",
+  "n_samples": 340
+}
+2026-05-06 08:30:41 | INFO     | experiment.identifiability_alignment_ruined_vsr_qwen_vl | Summary saved to results/identifiability/alignment_ruined/qwen_vl/vsr.summary.json
+2026-05-06 08:30:41 | INFO     | __main__ | Done. Results saved to: results/identifiability/alignment_ruined/qwen_vl/vsr.jsonl

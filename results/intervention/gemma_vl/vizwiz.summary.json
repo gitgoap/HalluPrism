@@ -1,0 +1,5 @@
+{
+  "model": "gemma_vl",
+  "decomp_source": "results/decomposition/gemma_vl/vizwiz.jsonl",
+  "n_samples": 4319
+}

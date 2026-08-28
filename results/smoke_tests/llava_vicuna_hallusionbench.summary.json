@@ -1,0 +1,29 @@
+{
+  "dataset": "hallusionbench",
+  "model": "llava_vicuna",
+  "n_samples": 5,
+  "accuracy": 0.6,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.75,
+      "correct": 3,
+      "count": 4
+    },
+    "attribute": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "count": 1
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 3,
+    "fp": 2,
+    "fn": 0,
+    "tn": 0,
+    "total": 5
+  }
+}

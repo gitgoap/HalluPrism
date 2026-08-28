@@ -1,0 +1,27 @@
+2026-05-05 04:30:58 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-05-05 04:30:58 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-05-05 04:30:58 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-05-05 04:31:01 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-05-05 04:31:01 | INFO     | __main__ | === Identifiability Run: dataset=vsr, model=llava_mistral, intervention=alignment_ruined ===
+2026-05-05 04:31:01 | INFO     | src.data.loaders.base | [VSRLoader] Loaded 340 samples (split=dev)
+2026-05-05 04:31:01 | INFO     | __main__ | Loaded 340 samples.
+2026-05-05 04:31:01 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-05-05 04:31:01 | INFO     | src.models.llava_mistral | Pinning model to cuda:1
+2026-05-05 04:31:05 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:1, dtype=float16
+2026-05-05 04:31:05 | INFO     | __main__ | Model loaded.
+2026-05-05 04:31:05 | INFO     | experiment.identifiability_alignment_ruined_vsr_llava_mistral | ExperimentLogger initialized: results/identifiability/alignment_ruined/llava_mistral/vsr.jsonl (experiment='identifiability_alignment_ruined_vsr_llava_mistral')
+2026-05-05 04:31:05 | INFO     | __main__ | Processing sample 0/340...
+2026-05-05 04:34:06 | INFO     | __main__ | Processing sample 50/340...
+2026-05-05 04:37:07 | INFO     | __main__ | Processing sample 100/340...
+2026-05-05 04:40:12 | INFO     | __main__ | Processing sample 150/340...
+2026-05-05 04:43:12 | INFO     | __main__ | Processing sample 200/340...
+2026-05-05 04:46:10 | INFO     | __main__ | Processing sample 250/340...
+2026-05-05 04:49:13 | INFO     | __main__ | Processing sample 300/340...
+2026-05-05 04:51:39 | INFO     | experiment.identifiability_alignment_ruined_vsr_llava_mistral | Experiment summary: {
+  "dataset": "vsr",
+  "model": "llava_mistral",
+  "intervention": "alignment_ruined",
+  "n_samples": 340
+}
+2026-05-05 04:51:39 | INFO     | experiment.identifiability_alignment_ruined_vsr_llava_mistral | Summary saved to results/identifiability/alignment_ruined/llava_mistral/vsr.summary.json
+2026-05-05 04:51:39 | INFO     | __main__ | Done. Results saved to: results/identifiability/alignment_ruined/llava_mistral/vsr.jsonl

@@ -1,0 +1,18 @@
+{
+  "dataset": "vizwiz",
+  "model": "gemma_vl",
+  "n_samples": 4319,
+  "accuracy": 0.43297059504514934,
+  "per_family_accuracy": {
+    "answerability": {
+      "accuracy": 0.7884476534296029,
+      "correct": 1092,
+      "count": 1385
+    },
+    "none": {
+      "accuracy": 0.26516700749829586,
+      "correct": 778,
+      "count": 2934
+    }
+  }
+}

@@ -1,0 +1,56 @@
+2026-04-22 12:52:00 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 12:52:00 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 12:52:00 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 12:52:03 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 12:52:03 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=gemma_vl ===
+2026-04-22 12:52:03 | INFO     | __main__ | Loading dataset...
+2026-04-22 12:52:03 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 951 samples (split=all)
+2026-04-22 12:52:03 | INFO     | __main__ | Loaded 951 samples from hallusionbench
+2026-04-22 12:52:03 | INFO     | __main__ | Loading model: gemma_vl (path=/home/models/gemma-4-E4B-it, device=cuda:1)...
+2026-04-22 12:52:03 | INFO     | src.models.gemma_vl | Loading Gemma 4 model: /home/models/gemma-4-E4B-it
+2026-04-22 12:52:03 | INFO     | src.models.gemma_vl | Pinning model to cuda:1
+2026-04-22 12:52:09 | INFO     | src.models.gemma_vl | Gemma 4 loaded. model=/home/models/gemma-4-E4B-it, device=cuda:1, dtype=bfloat16
+2026-04-22 12:52:09 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 12:52:09 | INFO     | experiment.baseline_hallusionbench_gemma_vl | ExperimentLogger initialized: results/baselines/gemma_vl/hallusionbench.jsonl (experiment='baseline_hallusionbench_gemma_vl')
+2026-04-22 12:52:09 | INFO     | __main__ | Processing sample 0/951...
+2026-04-22 12:53:30 | INFO     | __main__ | Processing sample 100/951...
+2026-04-22 12:54:53 | INFO     | __main__ | Processing sample 200/951...
+2026-04-22 12:56:14 | INFO     | __main__ | Processing sample 300/951...
+2026-04-22 12:57:34 | INFO     | __main__ | Processing sample 400/951...
+2026-04-22 12:58:54 | INFO     | __main__ | Processing sample 500/951...
+2026-04-22 13:00:14 | INFO     | __main__ | Processing sample 600/951...
+2026-04-22 13:01:42 | INFO     | __main__ | Processing sample 700/951...
+2026-04-22 13:03:01 | INFO     | __main__ | Processing sample 800/951...
+2026-04-22 13:04:22 | INFO     | __main__ | Processing sample 900/951...
+2026-04-22 13:05:05 | INFO     | experiment.baseline_hallusionbench_gemma_vl | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "gemma_vl",
+  "n_samples": 951,
+  "accuracy": 0.6824395373291272,
+  "per_family_accuracy": {
+    "attribute": {
+      "accuracy": 0.7527777777777778,
+      "correct": 271,
+      "count": 360
+    },
+    "object_hallucination": {
+      "accuracy": 0.6395939086294417,
+      "correct": 378,
+      "count": 591
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.6834910620399579,
+    "precision": 0.6655629139072847,
+    "recall": 0.5012468827930174,
+    "f1": 0.5718349928876244,
+    "tp": 201,
+    "fp": 101,
+    "fn": 200,
+    "tn": 449,
+    "total": 951
+  }
+}
+2026-04-22 13:05:05 | INFO     | experiment.baseline_hallusionbench_gemma_vl | Summary saved to results/baselines/gemma_vl/hallusionbench.summary.json
+2026-04-22 13:05:05 | INFO     | __main__ | Overall accuracy: 0.6824
+2026-04-22 13:05:05 | INFO     | __main__ | Results saved to: results/baselines/gemma_vl/hallusionbench.jsonl

@@ -1,0 +1,6 @@
+{
+  "dataset": "hallusionbench",
+  "model": "gemma_vl",
+  "n_samples": 951,
+  "passes_per_sample": 8
+}

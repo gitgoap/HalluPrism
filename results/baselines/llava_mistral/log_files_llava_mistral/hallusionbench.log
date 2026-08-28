@@ -1,0 +1,56 @@
+2026-04-22 00:25:39 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 00:25:39 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 00:25:39 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 00:25:41 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 00:25:41 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=llava_mistral ===
+2026-04-22 00:25:41 | INFO     | __main__ | Loading dataset...
+2026-04-22 00:25:42 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 951 samples (split=all)
+2026-04-22 00:25:42 | INFO     | __main__ | Loaded 951 samples from hallusionbench
+2026-04-22 00:25:42 | INFO     | __main__ | Loading model: llava_mistral (path=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:1)...
+2026-04-22 00:25:42 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-04-22 00:25:42 | INFO     | src.models.llava_mistral | Pinning model to cuda:1
+2026-04-22 00:25:46 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:1, dtype=float16
+2026-04-22 00:25:46 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 00:25:46 | INFO     | experiment.baseline_hallusionbench_llava_mistral | ExperimentLogger initialized: results/baselines/llava_mistral/hallusionbench.jsonl (experiment='baseline_hallusionbench_llava_mistral')
+2026-04-22 00:25:46 | INFO     | __main__ | Processing sample 0/951...
+2026-04-22 00:27:51 | INFO     | __main__ | Processing sample 100/951...
+2026-04-22 00:29:55 | INFO     | __main__ | Processing sample 200/951...
+2026-04-22 00:31:50 | INFO     | __main__ | Processing sample 300/951...
+2026-04-22 00:33:35 | INFO     | __main__ | Processing sample 400/951...
+2026-04-22 00:35:25 | INFO     | __main__ | Processing sample 500/951...
+2026-04-22 00:37:24 | INFO     | __main__ | Processing sample 600/951...
+2026-04-22 00:39:19 | INFO     | __main__ | Processing sample 700/951...
+2026-04-22 00:41:01 | INFO     | __main__ | Processing sample 800/951...
+2026-04-22 00:42:45 | INFO     | __main__ | Processing sample 900/951...
+2026-04-22 00:43:34 | INFO     | experiment.baseline_hallusionbench_llava_mistral | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "llava_mistral",
+  "n_samples": 951,
+  "accuracy": 0.5257623554153522,
+  "per_family_accuracy": {
+    "attribute": {
+      "accuracy": 0.5388888888888889,
+      "correct": 194,
+      "count": 360
+    },
+    "object_hallucination": {
+      "accuracy": 0.5177664974619289,
+      "correct": 306,
+      "count": 591
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.526813880126183,
+    "precision": 0.45797598627787306,
+    "recall": 0.6658354114713217,
+    "f1": 0.5426829268292683,
+    "tp": 267,
+    "fp": 316,
+    "fn": 134,
+    "tn": 234,
+    "total": 951
+  }
+}
+2026-04-22 00:43:34 | INFO     | experiment.baseline_hallusionbench_llava_mistral | Summary saved to results/baselines/llava_mistral/hallusionbench.summary.json
+2026-04-22 00:43:34 | INFO     | __main__ | Overall accuracy: 0.5258
+2026-04-22 00:43:34 | INFO     | __main__ | Results saved to: results/baselines/llava_mistral/hallusionbench.jsonl

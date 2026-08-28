@@ -1,0 +1,27 @@
+2026-04-25 11:50:00 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-25 11:50:00 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-25 11:50:00 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-25 11:50:03 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-25 11:50:03 | INFO     | __main__ | === Matched Intervention Run: model=llava_mistral ===
+2026-04-25 11:50:03 | INFO     | __main__ | Loading decomposition results from results/decomposition/llava_mistral/vsr.jsonl
+2026-04-25 11:50:03 | INFO     | __main__ | Loaded 340 decomposition results
+2026-04-25 11:50:03 | INFO     | __main__ | Loading model: llava_mistral
+2026-04-25 11:50:03 | INFO     | src.models.llava_mistral | Loading LLaVA-1.6-Mistral model: /home/models/llava-v1.6-mistral-7b-hf
+2026-04-25 11:50:03 | INFO     | src.models.llava_mistral | Pinning model to cuda:3
+2026-04-25 11:50:07 | INFO     | src.models.llava_mistral | LLaVA-1.6-Mistral loaded. model=/home/models/llava-v1.6-mistral-7b-hf, device=cuda:3, dtype=float16
+2026-04-25 11:50:07 | INFO     | __main__ | Model loaded.
+2026-04-25 11:50:07 | INFO     | experiment.intervention_llava_mistral | ExperimentLogger initialized: results/intervention/llava_mistral/vsr.jsonl (experiment='intervention_llava_mistral')
+2026-04-25 11:50:07 | INFO     | __main__ | Processing sample 0/340...
+2026-04-25 11:50:59 | INFO     | __main__ | Processing sample 50/340...
+2026-04-25 11:51:51 | INFO     | __main__ | Processing sample 100/340...
+2026-04-25 11:52:43 | INFO     | __main__ | Processing sample 150/340...
+2026-04-25 11:53:34 | INFO     | __main__ | Processing sample 200/340...
+2026-04-25 11:54:25 | INFO     | __main__ | Processing sample 250/340...
+2026-04-25 11:55:16 | INFO     | __main__ | Processing sample 300/340...
+2026-04-25 11:55:57 | INFO     | experiment.intervention_llava_mistral | Experiment summary: {
+  "model": "llava_mistral",
+  "decomp_source": "results/decomposition/llava_mistral/vsr.jsonl",
+  "n_samples": 340
+}
+2026-04-25 11:55:57 | INFO     | experiment.intervention_llava_mistral | Summary saved to results/intervention/llava_mistral/vsr.summary.json
+2026-04-25 11:55:57 | INFO     | __main__ | Done. Results saved to: results/intervention/llava_mistral/vsr.jsonl

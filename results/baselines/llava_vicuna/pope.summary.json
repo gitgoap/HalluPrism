@@ -1,0 +1,24 @@
+{
+  "dataset": "pope",
+  "model": "llava_vicuna",
+  "n_samples": 9000,
+  "accuracy": 0.8858888888888888,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.8858888888888888,
+      "correct": 7973,
+      "count": 9000
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.8858888888888888,
+    "precision": 0.9437771530794786,
+    "recall": 0.8206666666666667,
+    "f1": 0.8779270177106858,
+    "tp": 3693,
+    "fp": 220,
+    "fn": 807,
+    "tn": 4280,
+    "total": 9000
+  }
+}

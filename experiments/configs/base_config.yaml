@@ -1,0 +1,65 @@
+# Base experiment configuration
+# All run scripts load this as default.
+
+experiment:
+  name: "mllm_uncertainty_base"
+  seed: 42
+  output_dir: "results/"
+
+model:
+  # Primary: LLaVA-1.5-13B
+  primary:
+    name: "liuhaotian/llava-v1.5-13b"
+    wrapper: "llava"
+    device: "cuda"
+    dtype: "float16"
+    max_new_tokens: 128
+    temperature: 0.0
+    load_in_4bit: false # A100 80GB can handle 13B in fp16
+
+  # Secondary: InstructBLIP-Vicuna-7B
+  secondary:
+    name: "Salesforce/instructblip-vicuna-7b"
+    wrapper: "instructblip"
+    device: "cuda"
+    dtype: "float16"
+    max_new_tokens: 128
+    temperature: 0.0
+    load_in_4bit: false
+
+inference:
+  batch_size: 1
+  num_workers: 4
+  mc_samples: 5 # for sampling disagreement baseline
+  mc_temperature: 0.7
+
+uncertainty:
+  visual_perturbations:
+    - blur_light
+    - blur_heavy
+    - crop_moderate
+    - crop_aggressive
+    - occlusion
+    - brightness_low
+    - noise
+  lp_blank_fill: [128, 128, 128]
+  alignment_use_relation_swaps: true
+  normalization: "minmax"
+  dominant_delta: 0.05
+
+abstention:
+  calibrate_on_val: true
+  visual_threshold: null
+  lp_threshold: null
+  alignment_threshold: null
+  scalar_threshold: null
+
+logging:
+  level: "INFO"
+  log_to_file: true
+
+# Proxy settings for college network
+# Set these environment variables on the A100 machine:
+#   export HTTP_PROXY="http://your-proxy:port"
+#   export HTTPS_PROXY="http://your-proxy:port"
+#   export HF_HOME="/path/to/hf/cache"  # local cache for model weights

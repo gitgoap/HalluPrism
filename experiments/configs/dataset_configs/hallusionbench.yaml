@@ -1,0 +1,22 @@
+# HallusionBench dataset config
+# Extends / overrides base_config.yaml
+
+dataset:
+  name: "HallusionBench"
+  data_root: "data/HallusionBench/"     # update to your local path
+  split: "all"                          # no official split; use all
+  max_samples: null                     # null = use all
+
+  # HallusionBench-specific
+  # visual_input=0 examples are language-prior test cases
+  include_non_visual: true              # include visual_input=0 for LP analysis
+
+task:
+  type: "yes_no"
+  answer_format: "Answer with yes or no only."
+
+uncertainty:
+  # For HallusionBench, focus on visual and LP components
+  primary_components: ["visual", "language_prior"]
+  # Alignment secondary (use for illusion / spatial subcategories)
+  secondary_components: ["alignment"]

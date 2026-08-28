@@ -1,0 +1,5 @@
+{
+  "model": "gemma_vl",
+  "decomp_source": "results/decomposition/gemma_vl/vsr.jsonl",
+  "n_samples": 340
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "pope",
+  "model": "gemma_vl",
+  "n_samples": 9000,
+  "accuracy": 0.8687777777777778,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.8687777777777778,
+      "correct": 7819,
+      "count": 9000
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.8687777777777778,
+    "precision": 0.8946492271105826,
+    "recall": 0.836,
+    "f1": 0.8643308443423321,
+    "tp": 3762,
+    "fp": 443,
+    "fn": 738,
+    "tn": 4057,
+    "total": 9000
+  }
+}

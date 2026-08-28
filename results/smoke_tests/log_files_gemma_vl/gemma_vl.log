@@ -1,0 +1,47 @@
+2026-04-22 00:13:02 | INFO     | src.utils.seed_control | Global seed set to 42
+2026-04-22 00:13:02 | INFO     | src.utils.seed_control | NumPy seed set.
+2026-04-22 00:13:02 | INFO     | src.utils.seed_control | PyTorch seed set.
+2026-04-22 00:13:05 | INFO     | src.utils.seed_control | HuggingFace transformers seed set.
+2026-04-22 00:13:05 | INFO     | __main__ | === Baseline Run: dataset=hallusionbench, model=gemma_vl ===
+2026-04-22 00:13:05 | INFO     | __main__ | Loading dataset...
+2026-04-22 00:13:05 | INFO     | src.data.loaders.base | [HallusionBenchLoader] Loaded 5 samples (split=all)
+2026-04-22 00:13:05 | INFO     | __main__ | Loaded 5 samples from hallusionbench
+2026-04-22 00:13:05 | INFO     | __main__ | Loading model: gemma_vl (path=/home/models/gemma-4-E4B-it, device=cuda:1)...
+2026-04-22 00:13:05 | INFO     | src.models.gemma_vl | Loading Gemma 4 model: /home/models/gemma-4-E4B-it
+2026-04-22 00:13:05 | INFO     | src.models.gemma_vl | Pinning model to cuda:1
+2026-04-22 00:13:11 | INFO     | src.models.gemma_vl | Gemma 4 loaded. model=/home/models/gemma-4-E4B-it, device=cuda:1, dtype=bfloat16
+2026-04-22 00:13:11 | INFO     | __main__ | Model loaded successfully.
+2026-04-22 00:13:11 | INFO     | experiment.baseline_hallusionbench_gemma_vl | ExperimentLogger initialized: results/smoke_tests/gemma_vl.jsonl (experiment='baseline_hallusionbench_gemma_vl')
+2026-04-22 00:13:11 | INFO     | __main__ | Processing sample 0/5...
+2026-04-22 00:13:17 | INFO     | experiment.baseline_hallusionbench_gemma_vl | Experiment summary: {
+  "dataset": "hallusionbench",
+  "model": "gemma_vl",
+  "n_samples": 5,
+  "accuracy": 0.4,
+  "per_family_accuracy": {
+    "object_hallucination": {
+      "accuracy": 0.25,
+      "correct": 1,
+      "count": 4
+    },
+    "attribute": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "count": 1
+    }
+  },
+  "binary_metrics": {
+    "accuracy": 0.4,
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 1,
+    "fn": 2,
+    "tn": 1,
+    "total": 5
+  }
+}
+2026-04-22 00:13:17 | INFO     | experiment.baseline_hallusionbench_gemma_vl | Summary saved to results/smoke_tests/gemma_vl.summary.json
+2026-04-22 00:13:17 | INFO     | __main__ | Overall accuracy: 0.4000
+2026-04-22 00:13:17 | INFO     | __main__ | Results saved to: results/smoke_tests/gemma_vl.jsonl

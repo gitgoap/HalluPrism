@@ -1,0 +1,35 @@
+Pillow>=10.0.0
+numpy>=1.24.0
+PyYAML>=6.0
+
+# ML frameworks — A100 with latest CUDA
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.40.0
+accelerate>=0.28.0
+
+# For InstructBLIP
+sentencepiece>=0.1.99
+
+# 4-bit quantization support (optional but recommended for dual-model runs)
+bitsandbytes>=0.43.0
+
+# Evaluation and analysis
+scikit-learn>=1.3.0
+
+# EDA and visualization
+jupyter>=1.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+
+# For proxy environments
+requests>=2.31.0
+
+protobuf
+
+# ML Models
+xgboost 
+lightgbm
+
+

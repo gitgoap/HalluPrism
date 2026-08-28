@@ -1,0 +1,6 @@
+{
+  "dataset": "vsr",
+  "model": "llava_mistral",
+  "n_samples": 340,
+  "passes_per_sample": 8
+}

@@ -1,0 +1,7 @@
+dataset,failure_family,v_mean,lp_mean,a_mean,dominant,count
+hallusionbench,attribute,0.0592,0.9485,0.1502,Language-Prior,360
+hallusionbench,object_hallucination,0.0777,0.9431,0.2440,Language-Prior,591
+pope,object_hallucination,0.1155,0.9916,0.2044,Language-Prior,9000
+vizwiz,answerability,0.1479,0.9933,0.5725,Language-Prior,1385
+vizwiz,none,0.2467,0.9697,0.6190,Language-Prior,2934
+vsr,spatial,0.0368,0.9144,0.1047,Language-Prior,340

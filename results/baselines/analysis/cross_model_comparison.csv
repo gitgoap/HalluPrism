@@ -1,0 +1,17 @@
+model,dataset,accuracy,ece,Q1_correct_low,Q2_dangerous,Q3_incorrect_low,Q4_correct_high
+gemma_vl,hallusionbench,0.6824,0.2854,0,302,0,649
+gemma_vl,pope,0.8688,0.1177,0,1181,0,7819
+gemma_vl,vizwiz,0.5399,0.3457,9,1952,35,2323
+gemma_vl,vsr,0.7176,0.2534,0,96,0,244
+llava_mistral,hallusionbench,0.5258,0.3463,0,451,0,500
+llava_mistral,pope,0.8907,0.0769,0,984,0,8016
+llava_mistral,vizwiz,0.5492,0.2869,5,1917,30,2367
+llava_mistral,vsr,0.7029,0.1938,0,101,0,239
+llava_vicuna,hallusionbench,0.4774,0.3608,0,497,0,454
+llava_vicuna,pope,0.8859,0.0586,0,1027,0,7973
+llava_vicuna,vizwiz,0.5390,0.2035,42,1815,176,2286
+llava_vicuna,vsr,0.5147,0.3331,0,165,0,175
+qwen_vl,hallusionbench,0.7445,0.2185,0,243,0,708
+qwen_vl,pope,0.8892,0.0973,0,997,0,8003
+qwen_vl,vizwiz,0.6126,0.3250,2,1671,2,2644
+qwen_vl,vsr,0.8735,0.0880,0,43,0,297

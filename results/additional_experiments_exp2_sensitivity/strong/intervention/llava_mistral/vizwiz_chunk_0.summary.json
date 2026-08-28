@@ -1,0 +1,5 @@
+{
+  "model": "llava_mistral",
+  "decomp_source": "results/rebuttal_exp2_sensitivity/strong/decomposition/llava_mistral/vizwiz_chunk_0.jsonl",
+  "n_samples": 1080
+}

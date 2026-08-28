@@ -1,0 +1,6 @@
+{
+  "dataset": "vsr",
+  "model": "llava_vicuna",
+  "intervention": "language_ruined",
+  "n_samples": 340
+}
